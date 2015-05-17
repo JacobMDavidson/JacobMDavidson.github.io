@@ -1,0 +1,22 @@
+# Menu navigation links
+
+- title: Websites
+  url: sublist
+  sublist: [WordPress|/websites/wordpress, Joomla|/websites/joomla, Jekyll|/websites/jekyll]
+
+- title: Wordpress Plugins
+  url: sublist
+  sublist: [Commercial|/wordpress-plugins/commercial, Non-Commercial|/wordpress-plugins/personal]
+
+- title: Java Applications
+  url: sublist
+  sublist: [Android|/java-applications/android, Desktop|/java-applications/desktop]
+
+- title: C# Projects
+  url: /csharp-projects/
+
+- title: Fun Projects
+  url: /fun-projects/
+
+- title: Resume
+  url: /resume/

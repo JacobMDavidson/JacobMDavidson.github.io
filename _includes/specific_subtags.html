@@ -1,0 +1,22 @@
+{% if site.tags[include.type].size > 0 %}
+{% assign posts = site.tags[include.type] %}
+
+	<article>
+	<h2 id="{{ include.type }}" class="tag-heading">{{ include.type }}</h2>
+		<ul>
+    {% for post in posts %}{% if post.title != null %}
+      <li class="entry-title">
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endif %}{% endfor %}
+		</ul>
+	</article><!-- /.hentry -->
+
+{% else %}
+<article>
+  <h2>Under Construction</h2>
+</article>
+
+{% endif %}
