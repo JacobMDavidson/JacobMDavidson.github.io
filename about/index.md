@@ -36,7 +36,6 @@ I’m a former structural engineer working on my master’s degree in computer s
 
 ## Relevant Course work
 
-
 |Prerequisites&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||
 |:--|:--|
 |CIS 163AA|Java Programming I|
@@ -64,8 +63,49 @@ I’m a former structural engineer working on my master’s degree in computer s
 |||
 {: rules="groups"}
 
-## Tools
+## Languages, Tools, and Operating Systems
 
-## Projects
+## Relevant Projects
 
 ## Work History
+
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: left">Shive Hattery, Inc. - Downers Grove, IL</th>
+      <th style="text-align: right"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><em>Structural Engineer</em></td>
+      <td style="text-align: right">02/2011 - 06/2012 and 01/2013 - 03/2013</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+      Provided structural engineering design services and project management support in the industrial, educational, commercial, and telecom industries.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: left">Carl Walker, Inc. - Lombard, IL</th>
+      <th style="text-align: right"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><em>Project Engineer</em></td>
+      <td style="text-align: right">01/2005 - 01/2011</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+      Provided comprehensive structural engineering design services and project management support for more than 30 unique parking structures.
+      </td>
+    </tr>
+  </tbody>
+</table>
