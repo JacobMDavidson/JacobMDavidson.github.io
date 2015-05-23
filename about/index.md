@@ -130,18 +130,13 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
       <td style="text-align: left">(Currently Taking)</td>
     </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
+
   </tbody>
 </table>
 
 <a id="tools"></a>
 
 ## Languages, Tools, and Operating Systems
-
-<a id="projects"></a>
 
 <table rules="groups">
   <tbody>
@@ -172,7 +167,90 @@ I’m a former structural engineer working on my master’s degree in computer s
   </tbody>
 </table>
 
+<a id="projects"></a>
+
 ## Personal Projects
+
+<table rules="groups">
+  <tbody>
+    <tr>
+      <th style="text-align: left" colspan="2">Professional Engineering License Manager</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://www.pelicensemanager.com">http://www.pelicensemanager.com</a></td>
+      <td style="text-align: right">08/2012 - Present</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        Built on top of the Joomla! content management system, this web application helps professional engineers manage and maintain their professional engineering licenses. This membership based web site uses a MySQL database to log completed continuing education, track license renewal deadlines, and automatically generate continuing education logs to be submitted for license renewal. Also included is a notification system that periodically emails each user with upcoming license renewal dates and outstanding continuing education requirements.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left" colspan="2">CivilPE.net</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://www.civilpe.net">http://www.civilpe.net</a></td>
+      <td style="text-align: right">06/2012 - Present</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        This WordPress based site was built to provide licensing information for civil engineers. It was an exercise in search engine optimization meant to drive targeted traffic to the Professional Engineering License Manager. In addition to blog posts, social networking was used to increase traffic via Twitter, Facebook, and Youtube. The site currently attracts more than 1000 unique visitors monthly.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left" colspan="2">Elavon Converge Payment Gateway for WooCommerce</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://codecanyon.net/item/elavon-virtualmerchant-gateway-for-woocommerce/2894233">Available at CodeCanyon</a></td>
+      <td style="text-align: right">09/2012 - Present</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        This WordPress plugin adds the Elavon Converge payment gateway to WooCommerce (an eCommerce solution for WordPress). Ongoing customer support has been provided for the more than 200 customers that have purchased this plugin.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left" colspan="2">Surveying Coordinate Transformation</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://github.com/JacobMDavidson/Coordinate-Transformation">Available on Github</a></td>
+      <td style="text-align: right">08/2014</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        This application was developed for my wife who is a land surveyor. Built in C# .NET, this application uses the least squares methodology to transform survey coordinates from one coordinate system to another.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left" colspan="2">SMS to Morse Code Converter - Android Application</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://play.google.com/store/apps/details?id=com.jacobmdavidson.smsmorsecode">Available on Google Play</a></td>
+      <td style="text-align: right">07/2014</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        This Android application converts incoming text messages to Morse code based on the ITU- R M.1667-1 recommendation. If the phone’s ringer mode is set to normal, the Morse code message is played at the frequency and speed settings chosen within the app settings. If the ringer mode is set to vibrate, the Morse code message is vibrated at the selected speed setting.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <a id="work"></a>
 
@@ -181,7 +259,23 @@ I’m a former structural engineer working on my master’s degree in computer s
 <table rules="groups">
   <tbody>
     <tr>
-      <th style="text-align: left" colspan="2">Shive Hattery, Inc. - Downers Grove, IL</th>
+      <th style="text-align: left" colspan="2">Freelance Web Developer - Glen Ellyn, IL</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Web Developer</em></td>
+      <td style="text-align: right">06/2012 - 06/2014</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        Typical services included migrating sites from wordpress.org to a shared host allowing for deeper customization, developing automated backup processes for existing web sites, creating templates for existing static web sites transitioning to a content management solution (such as Joomla or WordPress), and developing custom WordPress or Joomla plugins. Notable clients include:
+      </td>
+    </tr>  
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left" colspan="2">Shive-Hattery, Inc. - Downers Grove, IL</th>
     </tr>
     <tr>
       <td style="text-align: left"><em>Structural Engineer</em></td>
