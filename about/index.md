@@ -9,15 +9,15 @@ image:
 comments: false
 modified: 2015-05-22
 ---
-I’m a former structural engineer working on my master’s degree in computer science at the University of Illinois at Springfield. I worked as a structural engineer for nearly eight years before making the decision to change careers. [Life circumstances]({% post_url /personal/2015-05-16-about-me %}) caused me to reevaluate my chosen career path in late 2012. This evaluation resulted in leaving my old career behind and beginning the journey toward a new career in software development. Now that I’m on the brink of overcoming the first hurdle in my journey, it’s safe to say I’ve made the right choice!
 
 <div markdown="0" style="text-align: center"><a href="#education" class="btn btn-info">Education</a>
 <a href="#courses" class="btn btn-info">Course Work</a>
 <a href="#tools" class="btn btn-info">Languages, Tools</a>
 <a href="#projects" class="btn btn-info">Projects</a>
 <a href="#work" class="btn btn-info">Work History</a></div>
-
 <a id="education"></a>
+
+I’m a former structural engineer working on my master’s degree in computer science at the University of Illinois at Springfield. I worked as a structural engineer for nearly eight years before making the decision to change careers. [Life circumstances]({% post_url /personal/2015-05-16-about-me %}) caused me to reevaluate my chosen career path in late 2012. This evaluation resulted in leaving my old career behind and beginning the journey toward a new career in software development. Now that I’m on the brink of overcoming the first hurdle in my journey, it’s safe to say I’ve made the right choice!
 
 ## Education
 
@@ -142,6 +142,35 @@ I’m a former structural engineer working on my master’s degree in computer s
 ## Languages, Tools, and Operating Systems
 
 <a id="projects"></a>
+
+<table rules="groups">
+  <tbody>
+    <tr>
+      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>Operating Systems:</strong>&nbsp;</td>
+      <td style="text-align: left">&nbsp;MS Windows, Mac OS X, Linux (Ubuntu, Mint, Arch), UNIX (Solaris)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>Programming Languages:</strong>&nbsp;</td>
+      <td style="text-align: left">&nbsp;C#, Java, JavaScript, PHP, SQL</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>Web Development:</strong>&nbsp;</td>
+      <td style="text-align: left">&nbsp;HTML, CSS, Jekyll, Joomla!, Wordpress</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>Web Services:</strong>&nbsp;</td>
+      <td style="text-align: left">&nbsp;HttpServlet, JAX-RS, JAX-WS, Restlet</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>RDBMS:</strong>&nbsp;</td>
+      <td style="text-align: left">&nbsp;MySQL, Oracle</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>Favorite Tools:</strong>&nbsp;</td>
+      <td style="text-align: left">&nbsp;Atom, Bitbucket, Eclipse, Github, Visual Studio</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Personal Projects
 
