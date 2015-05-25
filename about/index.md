@@ -267,7 +267,7 @@ I’m a former structural engineer working on my master’s degree in computer s
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
-        Typical services included migrating sites from wordpress.org to a shared host allowing for deeper customization, developing automated backup processes for existing web sites, creating templates for existing static web sites transitioning to a content management solution (such as Joomla or WordPress), and developing custom WordPress or Joomla plugins. Notable clients include:
+        Typical services included migrating sites from wordpress.org to shared hosting allowing for deeper customization, developing automated backup processes for existing web sites, creating templates for existing static web sites transitioning to a content management solution (such as Joomla or WordPress), and developing custom WordPress or Joomla plugins.
       </td>
     </tr>  
     <tr>
