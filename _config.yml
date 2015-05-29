@@ -29,8 +29,8 @@ owner:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
+google_analytics: UA-63549605-1
+google_verify: kL8qPd_qfNg3XQg38bEhUAMioQsSu4oAXvLRCP9ADiw
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
