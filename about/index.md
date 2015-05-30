@@ -5,7 +5,6 @@ image:
   feature: it_crowd_banner.jpg
   credit: Graham Linehan
   creditlink: http://observationdeck.io9.com/the-it-crowd-is-returning-for-one-last-episode-493981019
-  background: binary_background.png
 comments: false
 modified: 2015-05-22
 ---
