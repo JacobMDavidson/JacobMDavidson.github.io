@@ -6,7 +6,7 @@ modified: 2015-05-31
 tags: [website, wordpress]
 comments: false
 image:
-  feature: civilpe_banner.png
+  feature: civilpe/civilpe_banner.png
 ---
 <figure style="text-align: center">
   <a href="http://www.civilpe.net">
