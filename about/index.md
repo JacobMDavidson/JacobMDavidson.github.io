@@ -177,7 +177,7 @@ I’m a former structural engineer working on my master’s degree in computer s
 <table rules="groups">
   <tbody>
     <tr>
-      <th style="text-align: left" colspan="2">Professional Engineering License Manager</th>
+      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/pelicensemanager/">Professional Engineering License Manager</a></th>
     </tr>
     <tr>
       <td style="text-align: left"><a href="http://www.pelicensemanager.com">http://www.pelicensemanager.com</a></td>
@@ -193,7 +193,7 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2">CivilPE.net</th>
+      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/civilpenet/">CivilPE.net</a></th>
     </tr>
     <tr>
       <td style="text-align: left"><a href="http://www.civilpe.net">http://www.civilpe.net</a></td>
@@ -209,7 +209,7 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2">Elavon Converge Payment Gateway for WooCommerce</th>
+      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/converge/">Elavon Converge Payment Gateway for WooCommerce</a></th>
     </tr>
     <tr>
       <td style="text-align: left"><a href="http://codecanyon.net/item/elavon-virtualmerchant-gateway-for-woocommerce/2894233">Available at CodeCanyon</a></td>
@@ -225,7 +225,7 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2">Surveying Coordinate Transformation</th>
+      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/#/">Surveying Coordinate Transformation</a></th>
     </tr>
     <tr>
       <td style="text-align: left"><a href="https://github.com/JacobMDavidson/Coordinate-Transformation">Available on Github</a></td>
@@ -241,7 +241,7 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2">SMS to Morse Code Converter - Android Application</th>
+      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/smorse/">SMS to Morse Code Converter - Android Application</a></th>
     </tr>
     <tr>
       <td style="text-align: left"><a href="https://play.google.com/store/apps/details?id=com.jacobmdavidson.smsmorsecode">Available on Google Play</a></td>
