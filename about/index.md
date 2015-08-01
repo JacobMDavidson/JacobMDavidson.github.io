@@ -6,7 +6,7 @@ image:
   credit: Graham Linehan
   creditlink: http://observationdeck.io9.com/the-it-crowd-is-returning-for-one-last-episode-493981019
 comments: false
-modified: 2015-05-22
+modified: 2015-08-01
 ---
 
 <div markdown="0" style="text-align: center"><a href="#education" class="btn btn-info">Education</a>
@@ -34,7 +34,7 @@ I’m a former structural engineer working on my master’s degree in computer s
 |||
 {: rules="groups"}
 
-|University of Illinois at Springfield|09/1998 - 03/2003|
+|Oregon State University|09/1998 - 03/2003|
 |:-|-:|
 |Bachelor of Science: Civil Engineering||
 |Cumulative GPA: 3.89/4.0||
@@ -106,16 +106,20 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left">Software Engineering Capstone</td>
     </tr>
     <tr>
+      <td style="text-align: left">CSC 540</td>
+      <td style="text-align: left">Graduate Research Seminar</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">(Currently Taking)</td>
+    </tr>
+    <tr>
       <td style="text-align: left">CSC 570</td>
       <td style="text-align: left">Web Services</td>
     </tr>
     <tr>
       <td style="text-align: left">CSC 570</td>
       <td style="text-align: left">Computer Viruses/Worms</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left">(Currently Taking)</td>
     </tr>
     <tr>
       <td style="text-align: left">CSC 577</td>
