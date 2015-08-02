@@ -21,7 +21,7 @@ As an engineering firm, my wife's company runs everything on Windows systems. I 
 
 Not having access to the source code, I had to research 2D coordinate transformation calculations using the least squares algorithm. I settled on the fifth edition of *Adjustment Computations - Spatial Data Analysis* by Charles D. Ghilani, as my algorithm source. Specifically, chapter 18 provided the necessary information to perform this calculation.
 
-The coordinate transformation calculations are matrix based. Instead of developing my own matrix calculations, I found a freely available [C# matric class](https://github.com/darkdragon-001/LightweightMatrixCSharp) written by [Ivan Kuckir](http://blog.ivank.net). This resource saved me a TON of time!
+The coordinate transformation calculations are matrix based. Instead of developing my own matrix calculations, I found a freely available [C# matrix class](https://github.com/darkdragon-001/LightweightMatrixCSharp) written by [Ivan Kuckir](http://blog.ivank.net). This resource saved me a TON of time!
 
 ## The Solution
 
