@@ -58,3 +58,5 @@ As is, the application suits my needs, allowing me to accomplish my goals. To ma
 ## Conclusion
 
 Though this was a relatively simple project, it really opened my eyes to the power of using programming to solve annoying problems. Had I done this manually, the migration would have taken days to finish. I spent approximately half a day creating this application, which greatly simplified the task.
+
+Feel free to check out the source code on [GitHub](https://github.com/JacobMDavidson/MusicOrganizer).
