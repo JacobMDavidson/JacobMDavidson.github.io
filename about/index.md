@@ -225,7 +225,7 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/#/">Surveying Coordinate Transformation</a></th>
+      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/coordinate-transformation/">Surveying Coordinate Transformation</a></th>
     </tr>
     <tr>
       <td style="text-align: left"><a href="https://github.com/JacobMDavidson/Coordinate-Transformation">Available on Github</a></td>
