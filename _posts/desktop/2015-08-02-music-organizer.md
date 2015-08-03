@@ -2,7 +2,7 @@
 layout: post
 title: Music Organizer
 description: "My music file collection has grown rapidly since 1998, when MP3s first became popular. Over the past 17 years, this collection has become a tangled mess. I had no naming or tagging convention for the MP3s I owned. I had many song duplicates located in various folders and under different names. When I first began ripping my music, I didn't take the time to properly name and organize each track of each album. This resulted in many, many songs labeled track1, track2, etc., in a folder structure consisting of just the album name. Furthermore, these songs were not tagged in any way. Searching for a particular song or artist was nearly impossible. Organizing this mess would be a painful task. I set three goals to accomplish this task: properly tag each file, develop a unified folder structure to store each file, and eliminate duplicate files. I developed a Java program to make this possible."
-modified: 2015-08-02
+modified: 2015-08-03
 tags: [desktop, java]
 comments: false
 image:
@@ -27,7 +27,7 @@ What good is a bunch of tagged music if the file names and folder structures hav
 
 ## Music Organizer
 
-The concept behind the music organizer is simple. It enumerate a directory searching for music files, and copies those music file to /default_documents_directoy/MusicOrganizer/Artist/Album/Song_Title.ext, where ext is the file extension. Whenever a duplicate is found, it is listed as an error in the output, and the file is not copied. With one click of a button, I was able to organize my entire music library using this tool.
+The concept behind the music organizer is simple. It enumerate a directory searching for music files, and copies those music file to /default_documents_directoy/MusicOrganizerOutput/Artist/Album/Song_Title.ext, where ext is the file extension. Whenever a duplicate is found, it is listed as an error in the output, and the file is not copied. With one click of a button, I was able to organize my entire music library using this tool.
 
 <figure style="text-align: center">
     <img src="{{ site.url }}/images/desktop/music-organizer-gui1.png" alt="">
@@ -39,7 +39,7 @@ The GUI is simple. There's one button used to browse to the folder that the user
     <img src="{{ site.url }}/images/desktop/music-organizer-gui2.png" alt="">
 </figure>
 
-When a folder is selected, the application uses a SimpleFileVisitor to enumerate the directory. The extension for each visited file is checked to determine if it is a mp3, m4a, or m4p file. If it is a music file, the artist, album, and song title are extracted using the [Jaudiotagger](http://www.jthink.net/jaudiotagger/) library, and the file is copied to /default_documents_directoy/MusicOrganizer/Artist/Album/Song_Title.ext using the [Commons IO](http://commons.apache.org/proper/commons-io/) library. If that song already exists, an error message is added to a running list of errors. Once completed, all error messages are displayed in the output table allowing the user to review the duplicate files. Note, the source files are not deleted during the migration to ensure no files are lost during the process. The user must manually delete the source files if he or she wants.
+When a folder is selected, the application uses a SimpleFileVisitor to enumerate the directory. The extension for each visited file is checked to determine if it is a mp3, m4a, or m4p file. If it is a music file, the artist, album, and song title are extracted using the [Jaudiotagger](http://www.jthink.net/jaudiotagger/) library, and the file is copied to /default_documents_directoy/MusicOrganizerOutput/Artist/Album/Song_Title.ext using the [Commons IO](http://commons.apache.org/proper/commons-io/) library. If that song already exists, an error message is added to a running list of errors. Once completed, all error messages are displayed in the output table allowing the user to review the duplicate files. Note, the source files are not deleted during the migration to ensure no files are lost during the process. The user must manually delete the source files if he or she wants.
 
 #### Features:
 
