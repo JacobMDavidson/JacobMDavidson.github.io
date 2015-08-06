@@ -15,7 +15,7 @@ owner:
   email:          info@jacobmdavidson.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
-  facebook: jacob.davidson.146
+  facebook: 
   github: JacobMDavidson
   stackexchange:
   linkedin: jacobmdavidson
@@ -23,7 +23,7 @@ owner:
   flickr:
   tumblr:
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +JacobDavidson79
+  google_plus:
 
 # Background image to be tiled on all pages
 background: concrete_seamless_code.png
