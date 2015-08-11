@@ -2,7 +2,7 @@
 layout: post
 title: JacobMDavidson.com
 description: "A few months back, I finally decided to develop a personal website to provide a blogging platform and to showcase my project experience. I had acquired JacobMDavidson.com more than a year ago, and realized it was time to do something with it when it came up for renewal. The first step was to choose a platform. I chose to use GitHub Pages with Jekyll for this task."
-modified: 2015-08-03
+modified: 2015-08-06
 tags: [website, jekyll]
 comments: false
 image:

@@ -2,7 +2,7 @@
 layout: post
 title: CivilPE.net
 description: "I needed to find a way to attract a professional engineering audience for the Professional Engineering License Manager. Furthermore, I needed to cultivate this audience with minimal financial investment. Simply targeting specific keywords for the professional engineering management system, and using SEO to attract users was not an option. Engineers were simply not searching for similar tools. Through keyword research I discovered that the phrases “civil pe” and “civil pe license” were frequently searched, and these phrases had low to moderate competition. From this research, CivilPE.net was born as a means to generate the target audience I coveted."
-modified: 2015-05-31
+modified: 2015-08-05
 tags: [website, wordpress]
 comments: false
 image:
