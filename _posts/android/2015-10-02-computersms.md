@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ComputerSMS Android and Desktop Applications
-description: "Using the ComputerSMS Android application in conjunction with the ComputerSMSServer Java desktop application will allow you to send and receive text messages through your Android phone using your computer. The Android phone and computer must be connected to the same local network."
+description: "I currently own a Moto X and looked forward to the Motorola Connect feature when it was first released. The promise of Motorola Connect was to allow SMS messaging via a Chrome browser plugin. Unfortunately, the delivered product fell well short of my expectations. Initialization was slow, messages weren't sent and received in a timely fashion, messages sent and received within Motorola Connect were not accessible in the messages app on my phone, and using the plugin meant that my messages were being stored on yet another server over which I have no control. Needless to say, I stopped using the Chrome browser plugin after my first experience. I needed to create a better solution for my personal needs."
 modified: 2015-10-02
 tags: [android, desktop, java]
 comments: false
@@ -68,12 +68,12 @@ The Android application uses [XMLSerializer](http://developer.android.com/refere
 
 #### <u>Encryption:</u>
 
-Recognizing that these applications would likely be used in a public network setting, such as over open wifi at a coffee shop, I realized encryption is a necessity. Exposure to man-in-the-middle attacks is a high risk so any intercepted messages must be completely secure. To accomplish this encryption, I used a combination of a Diffie-Hellman key exchange and AES encryption. The glaring vulnerability with this method is accidentally connecting my phone to a rogue computer using the same application, but this risk is extremely low, and the connection would quickly be discovered.
+Recognizing that these applications would likely be used in a public network setting, such as over open wifi at a coffee shop, encryption is a necessity. Exposure to man-in-the-middle attacks is a high risk so any intercepted messages must be completely secure. I used a combination of a Diffie-Hellman key exchange and AES to accomplish this encryption.
 
 The chosen method of encryption was accomplished via the following:
 
-* Diffie-Hellman Key Exchange - Once connected, a shared secret is generated from an agreed upon 1024 bit prime number, a chosen base of two, and a secret key dynamically generated for each instance of each application. The result is a shared secret that is nearly impossible to crack.
-* AES Symmetric-Key algorithm - AES is a symetric-key algorithm that uses a shared private key for encryption and decryption. To alleviate the need for hardcoding this private key into each application, I used the shared secret generated from the Diffie-Hellman key exchange to compute the private key. The private key is calculated as the first 128 bits of the calculated SHA-256 digest of the shared secret generated from the Diffie-Hellman key exchange. This results in a different private key each time the application is run.
+* Diffie-Hellman Key Exchange - Once connected, a shared secret is generated from an agreed upon 1024 bit prime number, a base of two, and a secret key dynamically generated for each instance of each application. The result is a shared secret that is nearly impossible to crack.
+* Advanced Encryption Standard (AES) - AES is a symetric-key algorithm that uses a shared private key for encryption and decryption. To alleviate the need for hardcoding this private key into each application, I used the shared secret generated from the Diffie-Hellman key exchange to compute the private key. The private key is calculated as the first 128 bits of the SHA-256 digest of the shared secret generated from the Diffie-Hellman key exchange. This results in a different private key each time the application is run.
 
 ## The ComputerSMSServer Java Desktop Application
 
@@ -81,15 +81,15 @@ The chosen method of encryption was accomplished via the following:
     <img src="{{ site.url }}/images/android/computersms-desktop.png" alt="">
 </figure>
 
-The ComputerSMSServer desktop application broadcasts itself on the local network over UDP using Multi-Cast DNS under the name ComputerSMS and waits for a client to connect over TCP. Once connected to a client, the UDP broadcast is deregistered to ensure no other clients try to connect.
+The ComputerSMSServer desktop application broadcasts itself on the local network over UDP using Multi-Cast DNS, under the name ComputerSMS, and waits for a client to connect over TCP. Once connected to a client, the UDP broadcast is deregistered to ensure no other clients try to connect.
 
 After a successful connection is made, a Diffie-Hellman key exchange is performed to calculate a shared secret between the server and client. The first 128 bits from the SHA-256 message digest of the shared secret is used for the private AES key. Once this key is calculated, the connection is encrypted and messages can be securely sent from the client to the server and vice versa.
 
 #### <u>The ServerBoard Class:</u>
 
-The ServerBoard class provides the basic swing based GUI. A JTextPane was used for the messages area to facilitate the necessary font format changes for the various message types. JTextFields were used for the *Phone Number* and *Message* fields, and JButtons were used for the *Start* and *Send* buttons.
+The ServerBoard class provides the basic swing based GUI. A JTextPane was used for the messages area to facilitate font format changes for the various message types. JTextFields were used for the *Phone Number* and *Message* fields, and JButtons were used for the *Start* and *Send* buttons.
 
-The *Start* button instantiates a TCPServer with an anonymous TCPServer.OnMessageReceived object. The anonymous TCPServer.OnMessageReceived object overrides the messageReceived method, defining it to unmarshall any incoming messages into SMSMessage objects, and display the incoming message in the messages area.
+The *Start* button instantiates a TCPServer with an anonymous TCPServer.OnMessageReceived object. The anonymous object overrides the messageReceived method, allowing it to unmarshall any incoming messages into SMSMessage objects and to display those incoming messages in the messages area.
 
 The *Send* button constructs an SMSMessage object from the inputs in the *Phone Number* and *Message* fields, before marshalling this object into a valid XML message. Once the message is serialized into XML, it is sent to the client.
 
@@ -97,11 +97,11 @@ The *Send* button constructs an SMSMessage object from the inputs in the *Phone 
 
 The TCPServer class extends the Thread class. When run, this class instantiates a ServerSocket with port 0 which assigns it the next available port. The service type and port are bundled into a JmDNS ServiceInfo object with the name *"ComputerSMS"* and the service is broadcast. The TCPServer then waits for a client to connect.
 
-Once connected, the TCPServer sends out the Diffie-Hellman public key and waits to receive the clients public key. The shared secret is calculated and the AES private key is determined. Once the AES private key is set, the TCPServer sits in a while loop waiting for incoming messages from the client that is decrypts and passes to the messageReceived method defined in the ServerBoard class.
+Once connected, the TCPServer sends out the Diffie-Hellman public key and waits to receive the clients public key. The shared secret is calculated and the AES private key is determined. Once the AES private key is set, the TCPServer sits in a loop waiting for incoming messages from the client that it decrypts and passes to the messageReceived method defined in the ServerBoard class.
 
 #### <u>The SMSMessage Class:</u>
 
-The simple SMSMessage class provides a framework for mapping XML messages to java objects via the JaxB libraries. Incoming XML messages are unmarshalled into an SMSMessage object, and outgoing messages are marshalled from a SMSMessage object into a valid XML message.
+The simple SMSMessage class provides a framework for mapping XML messages to java objects via the JaxB libraries. Incoming XML messages are unmarshalled into an SMSMessage object, and outgoing messages are marshalled from a SMSMessage object into a valid XML message before transmission.
 
 ## The ComputerSMS Android Application
 
@@ -109,15 +109,15 @@ The simple SMSMessage class provides a framework for mapping XML messages to jav
     <img src="{{ site.url }}/images/android/computersms-android.png" alt="">
 </figure>
 
-This application is composed of three components: the main activity, a broadcast receiver, and a service. The main activity allows the user to enable the service when the server application is detected on the local area network. Once enabled, the service starts a broadcast receiver that is invoked whenever a text message or incoming call is received and passes the received message to the service. The service then converts the message to XML and sends it to the server application. The service receives any incoming XML message from the server and forwards it as a SMS message.
+This application is composed of three components: the main activity, a broadcast receiver, and a service. The main activity allows the user to enable the service when the server application is detected on the local area network. Once enabled, the service starts a broadcast receiver that is invoked whenever a text message or incoming call is received, passing the received message to the service. The service then converts the message to XML and sends it to the server application. The service receives any incoming XML message from the server and sends it out as a SMS message.
 
-#### <u>Permissions:</u>
-* RECEIVE_SMS - Enables the application to read incoming SMS messages, which it then passes to the desktop application.
-* SEND_SMS - Allows the application to send SMS messages, which it receives from the desktop application.
-* INTERNET - Used to open a socket of communication between the Android application and the desktop application over a local network.
+#### <u>Required Permissions:</u>
+* RECEIVE_SMS - Enables the application to read incoming SMS messages which it then passes to the desktop application.
+* SEND_SMS - Allows the application to send SMS messages that it receives from the desktop application.
+* INTERNET - Used to open a socket of communication between the Android application and the desktop application over a local area network.
 * READ_PHONE_STATE - Allows the Android application to listen for incoming calls, notifying the desktop application each time an incoming call is received.
 * ACCESS_WIFI_STATE - Enables access to the IP address of the device which is used in the discovery of services on the network.
-* CHANGE_WIFI_MULTICAST_STATE - Enables the DNS Service Discovery functionality of JmDNS, which is also used to discover the appropriate service on the network.
+* CHANGE_WIFI_MULTICAST_STATE - Enables the DNS Service Discovery functionality of JmDNS which is used to discover the appropriate service on the network.
 
 #### <u>The MainActivity Class:</u>
 
@@ -153,4 +153,4 @@ Not only did this project produce a useful set of applications that solved a per
 * AES Encryption - The use of a hard coded AES encryption private key was avoided by using the Diffie-Hellman key exchange to dynamically generate private keys.
 * XML Messaging - XML was used to generate standard message layouts to simplify the development of future clients in languages other than Java. JaxB was used to simplify XML parsing within the desktop application, and the combination of the XMLSerializer and XMLPullParser were used within the Android application.
 
-Overall, this was a phenomenal learning experience that resulted in a personally useful final product. 
+Overall, this was a phenomenal learning experience that resulted in a personally useful final product.
