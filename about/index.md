@@ -110,10 +110,6 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left">Graduate Research Seminar</td>
     </tr>
     <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left">(Currently Taking)</td>
-    </tr>
-    <tr>
       <td style="text-align: left">CSC 570</td>
       <td style="text-align: left">Web Services</td>
     </tr>
@@ -129,10 +125,6 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left">CSC 583</td>
       <td style="text-align: left">Network Programming</td>
     </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left">(Currently Taking)</td>
-    </tr>
 
   </tbody>
 </table>
@@ -144,28 +136,36 @@ I’m a former structural engineer working on my master’s degree in computer s
 <table rules="groups">
   <tbody>
     <tr>
-      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>Operating Systems:</strong>&nbsp;</td>
-      <td style="text-align: left">&nbsp;MS Windows, Mac OS X, Linux (Ubuntu, Mint, Arch), UNIX (Solaris)</td>
+      <td style="text-align: left"><strong>CMS:</strong></td>
+      <td style="text-align: left">Jekyll, Joomla, Wordpress</td>
     </tr>
     <tr>
-      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>Programming Languages:</strong>&nbsp;</td>
-      <td style="text-align: left">&nbsp;C#, Java, JavaScript, PHP, SQL</td>
+      <td style="text-align: left"><strong>DBMS:</strong></td>
+      <td style="text-align: left">MySQL, Oracle</td>
     </tr>
     <tr>
-      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>Web Development:</strong>&nbsp;</td>
-      <td style="text-align: left">&nbsp;HTML, CSS, Jekyll, Joomla!, Wordpress</td>
+      <td style="text-align: left"><strong>IDE:</strong></td>
+      <td style="text-align: left">Android Studio, Eclipse, Visual Studio</td>
     </tr>
     <tr>
-      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>Web Services:</strong>&nbsp;</td>
-      <td style="text-align: left">&nbsp;HttpServlet, JAX-RS, JAX-WS, Restlet</td>
+      <td style="text-align: left"><strong>Languages:</strong></td>
+      <td style="text-align: left"><strong>Experienced:</strong> Java, PHP, HTML, CSS</td>
     </tr>
     <tr>
-      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>RDBMS:</strong>&nbsp;</td>
-      <td style="text-align: left">&nbsp;MySQL, Oracle</td>
+      <td style="text-align: left"></td>
+      <td style="text-align: left"><strong>Intermediate:</strong> C#, JavaScript, Pascal, SQL, XML</td>
     </tr>
     <tr>
-      <td style="text-align: right; border-right: 2px solid black; width: 30%"><strong>Favorite Tools:</strong>&nbsp;</td>
-      <td style="text-align: left">&nbsp;Atom, Bitbucket, Eclipse, Github, Visual Studio</td>
+      <td style="text-align: left"></td>
+      <td style="text-align: left"><strong>Novice:</strong> C, C++, LaTeX, Lisp, Prolog, Python</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>OS:</strong></td>
+      <td style="text-align: left">Windows, OS X, Linux (Ubuntu, Mint, Arch)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Web Services:</strong></td>
+      <td style="text-align: left">HttpServlet, JAX-RS, JAX-WS, Restlet</td>
     </tr>
   </tbody>
 </table>
@@ -176,48 +176,48 @@ I’m a former structural engineer working on my master’s degree in computer s
 
 <table rules="groups">
   <tbody>
+  <tr>
+    <th style="text-align: left" colspan="2"><a href="{{ site.url }}/chattersystem/">Chatter Server and Client</a></th>
+  </tr>
+  <tr>
+    <td style="text-align: left"><a href="{{ site.url }}/chattersystem/">jacobmdavidson.com/chattersystem/</a></td>
+    <td style="text-align: right">11/2015</td>
+  </tr>
+  <tr>
+    <td style="text-align: left" colspan="2">
+      Developed as a term project for the Network Programming course at the University of Illinois at Springfield, this set of applications provides instant messaging services over a local area network, and stores client names in a MySQL database.
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: left"> </td>
+    <td style="text-align: left"> </td>
+  </tr>
+  <tr>
+    <th style="text-align: left" colspan="2"><a href="{{ site.url }}/computersms/">ComputerSMS Android and Desktop Applications</a></th>
+  </tr>
+  <tr>
+    <td style="text-align: left">Available on Github, <a href="https://github.com/JacobMDavidson/ComputerSMSServer">Server</a> and <a href="https://github.com/JacobMDavidson/ComputerSMS">Android App</a></td>
+    <td style="text-align: right">10/2015</td>
+  </tr>
+  <tr>
+    <td style="text-align: left" colspan="2">
+      Send and receive SMS text messages through an Android phone using a desktop application connected to the same local area network. Includes multicast DNS to simplify service discovery, XML message passing, and AES-128 message encryption derived from a Diffie-Hellman key exchange.
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: left"> </td>
+    <td style="text-align: left"> </td>
+  </tr>
     <tr>
-      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/pelicensemanager/">Professional Engineering License Manager</a></th>
+      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/farkle/">Farkle</a></th>
     </tr>
     <tr>
-      <td style="text-align: left"><a href="http://www.pelicensemanager.com">http://www.pelicensemanager.com</a></td>
-      <td style="text-align: right">08/2012 - Present</td>
+      <td style="text-align: left"><a href="https://github.com/JacobMDavidson/farkle-csc478">Available on Github</a></td>
+      <td style="text-align: right">12/2014</td>
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
-        Built on top of the Joomla! content management system, this web application helps professional engineers manage and maintain their professional engineering licenses. This membership based web site uses a MySQL database to log completed continuing education, track license renewal deadlines, and automatically generate continuing education logs to be submitted for license renewal. Also included is a notification system that periodically emails each user with upcoming license renewal dates and outstanding continuing education requirements.
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/civilpenet/">CivilPE.net</a></th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="http://www.civilpe.net">http://www.civilpe.net</a></td>
-      <td style="text-align: right">06/2012 - Present</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        This WordPress based site was built to provide licensing information for civil engineers. It was an exercise in search engine optimization meant to drive targeted traffic to the Professional Engineering License Manager. In addition to blog posts, social networking was used to increase traffic via Twitter, Facebook, and Youtube. The site currently attracts more than 1000 unique visitors monthly.
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/converge/">Elavon Converge Payment Gateway for WooCommerce</a></th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="http://codecanyon.net/item/elavon-virtualmerchant-gateway-for-woocommerce/2894233">Available at CodeCanyon</a></td>
-      <td style="text-align: right">09/2012 - Present</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        This WordPress plugin adds the Elavon Converge payment gateway to WooCommerce (an eCommerce solution for WordPress). Ongoing customer support has been provided for the more than 200 customers that have purchased this plugin.
+        Developed as a team for the Software Engineering Capstone course at the University of Illinois at Springfield, this application is a desktop version of the popular dice game Farkle.
       </td>
     </tr>
     <tr>
@@ -252,6 +252,54 @@ I’m a former structural engineer working on my master’s degree in computer s
         This Android application converts incoming text messages to Morse code based on the ITU- R M.1667-1 recommendation. If the phone’s ringer mode is set to normal, the Morse code message is played at the frequency and speed settings chosen within the app settings. If the ringer mode is set to vibrate, the Morse code message is vibrated at the selected speed setting.
       </td>
     </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/converge/">Elavon Converge Payment Gateway for WooCommerce</a></th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://codecanyon.net/item/elavon-virtualmerchant-gateway-for-woocommerce/2894233">Available at CodeCanyon</a></td>
+      <td style="text-align: right">09/2012 - Present</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        This WordPress plugin adds the Elavon Converge payment gateway to WooCommerce (an eCommerce solution for WordPress). Ongoing customer support has been provided for the more than 200 customers that have purchased this plugin.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/pelicensemanager/">Professional Engineering License Manager</a></th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://www.pelicensemanager.com">http://www.pelicensemanager.com</a></td>
+      <td style="text-align: right">08/2012 - Present</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        Built on top of the Joomla! content management system, this web application helps professional engineers manage and maintain their professional engineering licenses. This membership based web site uses a MySQL database to log completed continuing education, track license renewal deadlines, and automatically generate continuing education logs to be submitted for license renewal. Also included is a notification system that periodically emails each user with upcoming license renewal dates and outstanding continuing education requirements.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/civilpenet/">CivilPE.net</a></th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://www.civilpe.net">http://www.civilpe.net</a></td>
+      <td style="text-align: right">06/2012 - Present</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        This WordPress based site was built to provide licensing information for civil engineers. It was an exercise in search engine optimization meant to drive targeted traffic to the Professional Engineering License Manager. In addition to blog posts, social networking was used to increase traffic via Twitter, Facebook, and Youtube. The site currently attracts more than 1000 unique visitors monthly.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -262,7 +310,8 @@ I’m a former structural engineer working on my master’s degree in computer s
 <table rules="groups">
   <tbody>
     <tr>
-      <th style="text-align: left" colspan="2">Freelance Web Developer - Glen Ellyn, IL</th>
+      <th style="text-align: left">Freelance Web Developer</th>
+      <th style="text-align: right">Glen Ellyn, IL</th>
     </tr>
     <tr>
       <td style="text-align: left"><em>Web Developer</em></td>
@@ -270,7 +319,12 @@ I’m a former structural engineer working on my master’s degree in computer s
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
-        Typical services included migrating sites from wordpress.org to shared hosting allowing for deeper customization, developing automated backup processes for existing web sites, creating templates for existing static web sites transitioning to a content management solution (such as Joomla or WordPress), and developing custom WordPress or Joomla plugins.
+        <ul style="margin: 0px;">
+          <li style="margin-bottom: 0px;">Migrated sites from WordPress.org to shared hosting allowing for deeper customization.</li>
+          <li style="margin-bottom: 0px;">Developed automatic backup processes for existing websites.</li>
+          <li style="margin-bottom: 0px;">Created templates for existing static websites transitioning to a CMS (such as Joomla or WordPress).</li>
+          <li style="margin-bottom: 0px;">Developed custom WordPress and Joomla plugins.</li>
+        </ul>
       </td>
     </tr>  
     <tr>
@@ -278,7 +332,8 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2">Shive-Hattery, Inc. - Downers Grove, IL</th>
+      <th style="text-align: left">Shive-Hattery, Inc.</th>
+      <th style="text-align: right">Downers Grove, IL</th>
     </tr>
     <tr>
       <td style="text-align: left"><em>Structural Engineer</em></td>
@@ -286,7 +341,12 @@ I’m a former structural engineer working on my master’s degree in computer s
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
-      Provided structural engineering design services and project management support in the industrial, educational, commercial, and telecom industries.
+        <ul style="margin: 0px;">
+          <li style="margin-bottom: 0px;">Provided comprehensive structural engineering design services and project management support for the industrial, educational, commercial, and telecom industries.</li>
+          <li style="margin-bottom: 0px;">Retrofitted existing structures to accommodate new tenants within the retail industry.</li>
+          <li style="margin-bottom: 0px;">Analyzed existing buildings, telecom towers, and water towers outfitted with new mobile network antennas.</li>
+          <li style="margin-bottom: 0px;">Collaborated on several projects using the Autodesk Revit building information modeling tool.</li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -294,7 +354,8 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2">Carl Walker, Inc. - Lombard, IL</th>
+      <th style="text-align: left">Carl Walker, Inc.</th>
+      <th style="text-align: right">Lombard, IL</th>
     </tr>
     <tr>
       <td style="text-align: left"><em>Project Engineer</em></td>
@@ -302,7 +363,13 @@ I’m a former structural engineer working on my master’s degree in computer s
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
-        Provided comprehensive structural engineering design services and project management support for more than 30 unique parking structures.
+        <ul style="margin: 0px;">
+        <li style="margin-bottom: 0px;">Provided comprehensive structural engineering design services for more than 30 unique parking structures throughout the United States.</li>
+        <li style="margin-bottom: 0px;">Designed precast concrete, post-tensioned concrete, and steel framed structural systems in areas across the country ranging from low to high seismicity.</li>
+        <li style="margin-bottom: 0px;">Designed spread footing, auger cast pile, drilled pier, steel driven pile, and timber driven pile foundation systems.</li>
+        <li style="margin-bottom: 0px;">Served as lead structural engineer on four parking structure projects.</li>
+        <li style="margin-bottom: 0px;">Effectively managed the construction phase of a four supported level, horizontal expansion to an existing post-tensioned parking structure in Duluth, Minnesota.</li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -310,7 +377,8 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2">Drucker Zajdel Structural Engineers - Naperville, IL</th>
+      <th style="text-align: left">Drucker Zajdel Structural Engineers</th>
+      <th style="text-align: right">Naperville, IL</th>
     </tr>
     <tr>
       <td style="text-align: left"><em>Project Engineer</em></td>
@@ -318,7 +386,10 @@ I’m a former structural engineer working on my master’s degree in computer s
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
-        Provided structural engineering design services for several small to mid-sized commercial and residential structures. Designed and detailed structural steel connections for steel fabricators.
+        <ul style="margin: 0px;">
+        <li style="margin-bottom: 0px;">Provided structural engineering design services for several small to mid-sized commercial and residential masonry, wood, and steel structures.</li>
+        <li style="margin-bottom: 0px;">Designed and detailed structural steel connections for two high-rise buildings in downtown Chicago.</li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -326,7 +397,8 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2">Carl Walker, Inc. - Indianapolis, IN</th>
+      <th style="text-align: left">Carl Walker, Inc.</th>
+      <th style="text-align: right">Indianapolis, IN</th>
     </tr>
     <tr>
       <td style="text-align: left"><em>Engineering Intern</em></td>
@@ -334,7 +406,11 @@ I’m a former structural engineer working on my master’s degree in computer s
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
-        Provided structural engineering design support for one precast, and three post-tensioned parking structures constructed in the midwest.
+        <ul style="margin: 0px;">
+        <li style="margin-bottom: 0px;">Post-tensioned parking structure design.</li>
+        <li style="margin-bottom: 0px;">Retaining wall analysis and design.</li>
+        <li style="margin-bottom: 0px;">Foundation system analysis and design.</li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -342,10 +418,8 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2">WRG Design, Inc. - Portland, OR</th>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">(Now Owned by Cardno)</td>
+      <th style="text-align: left">WRG Design, Inc. (Now Cardno)</th>
+      <th style="text-align: right">Portland, OR</th>
     </tr>
     <tr>
       <td style="text-align: left"><em>Design Technician</em></td>
@@ -353,7 +427,11 @@ I’m a former structural engineer working on my master’s degree in computer s
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
-        Provided site design and drafting services for various commercial site development, and public road widening projects.
+        <ul style="margin: 0px;">
+        <li style="margin-bottom: 0px;">Grading design.</li>
+        <li style="margin-bottom: 0px;">Storm drain system design.</li>
+        <li style="margin-bottom: 0px;">Technical drafter for various site design projects.</li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -361,7 +439,8 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <th style="text-align: left" colspan="2">Marion County Public Works - Salem, OR</th>
+      <th style="text-align: left">Marion County Public Works</th>
+      <th style="text-align: right">Salem, OR</th>
     </tr>
     <tr>
       <td style="text-align: left"><em>Engineering Technician</em></td>
@@ -369,7 +448,11 @@ I’m a former structural engineer working on my master’s degree in computer s
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
-        Provided design and drafting support for a variety of small civil, structural, and environmental projects.
+        <ul style="margin: 0px;">
+          <li style="margin-bottom: 0px;">Wood, masonry, and reinforced concrete structural analysis.</li>
+          <li style="margin-bottom: 0px;">Hydraulic analysis and design for stream improvements.</li>
+          <li style="margin-bottom: 0px;">Grading design for a wetland restoration.</li>
+        </ul>
       </td>
     </tr>
   </tbody>
