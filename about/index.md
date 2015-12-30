@@ -22,7 +22,7 @@ I’m a former structural engineer working on my master’s degree in computer s
 
 |University of Illinois at Springfield|08/2013 - 12/2015|
 |:-|-:|
-|Master of Science: Computer Science|(Expected)|
+|Master of Science: Computer Science||
 |Current Cumulative GPA: 4.0/4.0||
 |||
 {: rules="groups"}
