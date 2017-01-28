@@ -16,8 +16,9 @@ modified: 2015-08-01
 <a href="#work" class="btn btn-info">Work History</a></div>
 <a id="education"></a>
 
+{% comment %}
 I’m a former structural engineer working on my master’s degree in computer science at the University of Illinois at Springfield. I worked as a structural engineer for nearly eight years before making the decision to change careers. [Life circumstances]({% post_url /personal/2015-05-16-about-me %}) caused me to reevaluate my chosen career path in late 2012. This evaluation resulted in leaving my old career behind and beginning the journey toward a new career in software development. Now that I’m on the brink of overcoming the first hurdle in my journey, it’s safe to say I’ve made the right choice!
-
+{% endcomment %}
 ## Education
 
 |University of Illinois at Springfield|08/2013 - 12/2015|
@@ -136,36 +137,24 @@ I’m a former structural engineer working on my master’s degree in computer s
 <table rules="groups">
   <tbody>
     <tr>
-      <td style="text-align: left"><strong>CMS:</strong></td>
-      <td style="text-align: left">Jekyll, Joomla, Wordpress</td>
+      <td style="text-align: left"><strong>.NET:</strong></td>
+      <td style="text-align: left">ADO.NET, ASP.NET, C#, Entity Framework, MVC, SignalR, VB.NET</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Web:</strong></td>
+      <td style="text-align: left">AJAX, CSS, HTML, JavaScript, JSON, PHP, XML, XSLT</td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>DBMS:</strong></td>
-      <td style="text-align: left">MySQL, Oracle</td>
+      <td style="text-align: left">Oracle, MySQL, SQL Server</td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>IDE:</strong></td>
-      <td style="text-align: left">Android Studio, Eclipse, Visual Studio</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>Languages:</strong></td>
-      <td style="text-align: left"><strong>Experienced:</strong> Java, PHP, HTML, CSS</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"></td>
-      <td style="text-align: left"><strong>Intermediate:</strong> C#, JavaScript, Pascal, SQL, XML</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"></td>
-      <td style="text-align: left"><strong>Novice:</strong> C, C++, LaTeX, Lisp, Prolog, Python</td>
+      <td style="text-align: left">Eclipse, Visual Studio</td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>OS:</strong></td>
       <td style="text-align: left">Windows, OS X, Linux (Ubuntu, Mint, Arch)</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>Web Services:</strong></td>
-      <td style="text-align: left">HttpServlet, JAX-RS, JAX-WS, Restlet</td>
     </tr>
   </tbody>
 </table>
@@ -260,7 +249,7 @@ I’m a former structural engineer working on my master’s degree in computer s
       <th style="text-align: left" colspan="2"><a href="{{ site.url }}/converge/">Elavon Converge Payment Gateway for WooCommerce</a></th>
     </tr>
     <tr>
-      <td style="text-align: left"><a href="http://codecanyon.net/item/elavon-virtualmerchant-gateway-for-woocommerce/2894233">Available at CodeCanyon</a></td>
+      <td style="text-align: left"><a href="https://github.com/JacobMDavidson/Elavon-Payment-Gateway-for-WooCommerce">Available on Github</a></td>
       <td style="text-align: right">09/2012 - Present</td>
     </tr>
     <tr>
@@ -309,6 +298,33 @@ I’m a former structural engineer working on my master’s degree in computer s
 
 <table rules="groups">
   <tbody>
+    <tr>
+      <th style="text-align: left">American Academy of Sleep Medicine</th>
+      <th style="text-align: right">Darien, IL</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Programmer</em></td>
+      <td style="text-align: right">01/2016 - Present</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        <ul style="margin: 0px;">
+          <li style="margin-bottom: 0px;">Provided ongoing maintenance for a console based VB.NET application that uses XSLT transformations to convert XML into HTML for both web-based and Kindle publications.</li>
+          <li style="margin-bottom: 0px;">Developed new features for an Azure-based telemedicine platform built with ASP.NET 4.5 using web forms. This n-tiered application was built with VB.NET, ADO.NET, SignalR, and WebRTC.</li>
+          <ul>
+            <li>Integrated Stripe Connect allowing users to accept client payments</li>
+            <li>Created a medical history collection component with a Clinical Document Architecture 2 formatted export feature.</li>
+            <li>Migrated static content to a CDN</li>
+            <li>Implemented an Azure Service Bus backplane to facilitate seamless application deployment slot swapping without severing SignalR connections.</li>
+          </ul>
+          <li style="margin-bottom: 0px;">Developed a lightweight version of an existing telemedicine platform with the ASP.NET MVC 5 framework using C#, Entity Framework 6, SignalR, and WebRTC.</li>
+        </ul>
+      </td>
+    </tr>  
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
     <tr>
       <th style="text-align: left">Freelance Web Developer</th>
       <th style="text-align: right">Glen Ellyn, IL</th>
