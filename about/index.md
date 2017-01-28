@@ -9,11 +9,11 @@ comments: false
 modified: 2015-08-01
 ---
 
-<div markdown="0" style="text-align: center"><a href="#work" class="btn btn-info">Work History</a></div>
+<div markdown="0" style="text-align: center"><a href="#work" class="btn btn-info">Work History</a>
 <a href="#education" class="btn btn-info">Education</a>
 <a href="#courses" class="btn btn-info">Course Work</a>
 <a href="#tools" class="btn btn-info">Languages, Tools</a>
-<a href="#projects" class="btn btn-info">Projects</a>
+<a href="#projects" class="btn btn-info">Projects</a></div>
 
 
 {% comment %}
