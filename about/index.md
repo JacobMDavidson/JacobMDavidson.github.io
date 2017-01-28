@@ -9,16 +9,202 @@ comments: false
 modified: 2015-08-01
 ---
 
-<div markdown="0" style="text-align: center"><a href="#education" class="btn btn-info">Education</a>
+<div markdown="0" style="text-align: center"><a href="#work" class="btn btn-info">Work History</a></div>
+<a href="#education" class="btn btn-info">Education</a>
 <a href="#courses" class="btn btn-info">Course Work</a>
 <a href="#tools" class="btn btn-info">Languages, Tools</a>
 <a href="#projects" class="btn btn-info">Projects</a>
-<a href="#work" class="btn btn-info">Work History</a></div>
-<a id="education"></a>
+
 
 {% comment %}
 I’m a former structural engineer working on my master’s degree in computer science at the University of Illinois at Springfield. I worked as a structural engineer for nearly eight years before making the decision to change careers. [Life circumstances]({% post_url /personal/2015-05-16-about-me %}) caused me to reevaluate my chosen career path in late 2012. This evaluation resulted in leaving my old career behind and beginning the journey toward a new career in software development. Now that I’m on the brink of overcoming the first hurdle in my journey, it’s safe to say I’ve made the right choice!
 {% endcomment %}
+I’m a former structural engineer that decided it was time for a career change after nearly 8 years in the industry. My love for technology and passion for learning made my new career choice an easy one. I completed a master’s degree in computer science at the University of Illinois at Springfield in December of 2015, leaving my old career behind.
+
+<a id="work"></a>
+
+## Work History
+
+<table rules="groups">
+  <tbody>
+    <tr>
+      <th style="text-align: left">American Academy of Sleep Medicine</th>
+      <th style="text-align: right">Darien, IL</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Programmer</em></td>
+      <td style="text-align: right">01/2016 - Present</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        <ul style="margin: 0px;">
+          <li style="margin-bottom: 0px;">Provided ongoing maintenance for a console based VB.NET application that uses XSLT transformations to convert XML into HTML for both web-based and Kindle publications.</li>
+          <li style="margin-bottom: 0px;">Developed new features for an Azure-based telemedicine platform built with ASP.NET 4.5 using web forms. This n-tiered application was built with VB.NET, ADO.NET, SignalR, and WebRTC.</li>
+          <ul>
+            <li>Integrated Stripe Connect allowing users to accept client payments</li>
+            <li>Created a medical history collection component with a Clinical Document Architecture 2 formatted export feature.</li>
+            <li>Migrated static content to a CDN</li>
+            <li>Implemented an Azure Service Bus backplane to facilitate seamless application deployment slot swapping without severing SignalR connections.</li>
+          </ul>
+          <li style="margin-bottom: 0px;">Developed a lightweight version of an existing telemedicine platform with the ASP.NET MVC 5 framework using C#, Entity Framework 6, SignalR, and WebRTC.</li>
+        </ul>
+      </td>
+    </tr>  
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left">Freelance Web Developer</th>
+      <th style="text-align: right">Glen Ellyn, IL</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Web Developer</em></td>
+      <td style="text-align: right">06/2012 - 06/2014</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        <ul style="margin: 0px;">
+          <li style="margin-bottom: 0px;">Migrated sites from WordPress.org to shared hosting allowing for deeper customization.</li>
+          <li style="margin-bottom: 0px;">Developed automatic backup processes for existing websites.</li>
+          <li style="margin-bottom: 0px;">Created templates for existing static websites transitioning to a CMS (such as Joomla or WordPress).</li>
+          <li style="margin-bottom: 0px;">Developed custom WordPress and Joomla plugins.</li>
+        </ul>
+      </td>
+    </tr>  
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left">Shive-Hattery, Inc.</th>
+      <th style="text-align: right">Downers Grove, IL</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Structural Engineer</em></td>
+      <td style="text-align: right">02/2011 - 06/2012 and 01/2013 - 03/2013</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        <ul style="margin: 0px;">
+          <li style="margin-bottom: 0px;">Provided comprehensive structural engineering design services and project management support for the industrial, educational, commercial, and telecom industries.</li>
+          <li style="margin-bottom: 0px;">Retrofitted existing structures to accommodate new tenants within the retail industry.</li>
+          <li style="margin-bottom: 0px;">Analyzed existing buildings, telecom towers, and water towers outfitted with new mobile network antennas.</li>
+          <li style="margin-bottom: 0px;">Collaborated on several projects using the Autodesk Revit building information modeling tool.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left">Carl Walker, Inc.</th>
+      <th style="text-align: right">Lombard, IL</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Project Engineer</em></td>
+      <td style="text-align: right">01/2005 - 03/2007 and 08/2007 - 01/2011</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        <ul style="margin: 0px;">
+        <li style="margin-bottom: 0px;">Provided comprehensive structural engineering design services for more than 30 unique parking structures throughout the United States.</li>
+        <li style="margin-bottom: 0px;">Designed precast concrete, post-tensioned concrete, and steel framed structural systems in areas across the country ranging from low to high seismicity.</li>
+        <li style="margin-bottom: 0px;">Designed spread footing, auger cast pile, drilled pier, steel driven pile, and timber driven pile foundation systems.</li>
+        <li style="margin-bottom: 0px;">Served as lead structural engineer on four parking structure projects.</li>
+        <li style="margin-bottom: 0px;">Effectively managed the construction phase of a four supported level, horizontal expansion to an existing post-tensioned parking structure in Duluth, Minnesota.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left">Drucker Zajdel Structural Engineers</th>
+      <th style="text-align: right">Naperville, IL</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Project Engineer</em></td>
+      <td style="text-align: right">03/2007 - 08/2007</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        <ul style="margin: 0px;">
+        <li style="margin-bottom: 0px;">Provided structural engineering design services for several small to mid-sized commercial and residential masonry, wood, and steel structures.</li>
+        <li style="margin-bottom: 0px;">Designed and detailed structural steel connections for two high-rise buildings in downtown Chicago.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left">Carl Walker, Inc.</th>
+      <th style="text-align: right">Indianapolis, IN</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Engineering Intern (Internship)</em></td>
+      <td style="text-align: right">05/2004 - 08/2004</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        <ul style="margin: 0px;">
+        <li style="margin-bottom: 0px;">Post-tensioned parking structure design.</li>
+        <li style="margin-bottom: 0px;">Retaining wall analysis and design.</li>
+        <li style="margin-bottom: 0px;">Foundation system analysis and design.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left">WRG Design, Inc. (Now Cardno)</th>
+      <th style="text-align: right">Portland, OR</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Design Technician (Internship)</em></td>
+      <td style="text-align: right">06/2002 - 12/2002 and 05/2003 - 08/2003</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        <ul style="margin: 0px;">
+        <li style="margin-bottom: 0px;">Grading design.</li>
+        <li style="margin-bottom: 0px;">Storm drain system design.</li>
+        <li style="margin-bottom: 0px;">Technical drafter for various site design projects.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <th style="text-align: left">Marion County Public Works</th>
+      <th style="text-align: right">Salem, OR</th>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Engineering Technician (Internship)</em></td>
+      <td style="text-align: right">05/2001 - 09/2001</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="2">
+        <ul style="margin: 0px;">
+          <li style="margin-bottom: 0px;">Wood, masonry, and reinforced concrete structural analysis.</li>
+          <li style="margin-bottom: 0px;">Hydraulic analysis and design for stream improvements.</li>
+          <li style="margin-bottom: 0px;">Grading design for a wetland restoration.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<a id="Education"></a>
+
 ## Education
 
 |University of Illinois at Springfield|08/2013 - 12/2015|
@@ -127,35 +313,6 @@ I’m a former structural engineer working on my master’s degree in computer s
       <td style="text-align: left">Network Programming</td>
     </tr>
 
-  </tbody>
-</table>
-
-<a id="tools"></a>
-
-## Languages, Tools, and Operating Systems
-
-<table rules="groups">
-  <tbody>
-    <tr>
-      <td style="text-align: left"><strong>.NET:</strong></td>
-      <td style="text-align: left">ADO.NET, ASP.NET, C#, Entity Framework, MVC, SignalR, VB.NET</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>Web:</strong></td>
-      <td style="text-align: left">AJAX, CSS, HTML, JavaScript, JSON, PHP, XML, XSLT</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>DBMS:</strong></td>
-      <td style="text-align: left">Oracle, MySQL, SQL Server</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>IDE:</strong></td>
-      <td style="text-align: left">Eclipse, Visual Studio</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>OS:</strong></td>
-      <td style="text-align: left">Windows, OS X, Linux (Ubuntu, Mint, Arch)</td>
-    </tr>
   </tbody>
 </table>
 
@@ -292,184 +449,31 @@ I’m a former structural engineer working on my master’s degree in computer s
   </tbody>
 </table>
 
-<a id="work"></a>
+<a id="tools"></a>
 
-## Work History
+## Languages, Tools, and Operating Systems
 
 <table rules="groups">
   <tbody>
     <tr>
-      <th style="text-align: left">American Academy of Sleep Medicine</th>
-      <th style="text-align: right">Darien, IL</th>
+      <td style="text-align: left"><strong>.NET:</strong></td>
+      <td style="text-align: left">ADO.NET, ASP.NET, C#, Entity Framework, MVC, SignalR, VB.NET</td>
     </tr>
     <tr>
-      <td style="text-align: left"><em>Programmer</em></td>
-      <td style="text-align: right">01/2016 - Present</td>
+      <td style="text-align: left"><strong>Web:</strong></td>
+      <td style="text-align: left">AJAX, CSS, HTML, JavaScript, JSON, PHP, XML, XSLT</td>
     </tr>
     <tr>
-      <td style="text-align: left" colspan="2">
-        <ul style="margin: 0px;">
-          <li style="margin-bottom: 0px;">Provided ongoing maintenance for a console based VB.NET application that uses XSLT transformations to convert XML into HTML for both web-based and Kindle publications.</li>
-          <li style="margin-bottom: 0px;">Developed new features for an Azure-based telemedicine platform built with ASP.NET 4.5 using web forms. This n-tiered application was built with VB.NET, ADO.NET, SignalR, and WebRTC.</li>
-          <ul>
-            <li>Integrated Stripe Connect allowing users to accept client payments</li>
-            <li>Created a medical history collection component with a Clinical Document Architecture 2 formatted export feature.</li>
-            <li>Migrated static content to a CDN</li>
-            <li>Implemented an Azure Service Bus backplane to facilitate seamless application deployment slot swapping without severing SignalR connections.</li>
-          </ul>
-          <li style="margin-bottom: 0px;">Developed a lightweight version of an existing telemedicine platform with the ASP.NET MVC 5 framework using C#, Entity Framework 6, SignalR, and WebRTC.</li>
-        </ul>
-      </td>
-    </tr>  
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
+      <td style="text-align: left"><strong>DBMS:</strong></td>
+      <td style="text-align: left">Oracle, MySQL, SQL Server</td>
     </tr>
     <tr>
-      <th style="text-align: left">Freelance Web Developer</th>
-      <th style="text-align: right">Glen Ellyn, IL</th>
+      <td style="text-align: left"><strong>IDE:</strong></td>
+      <td style="text-align: left">Eclipse, Visual Studio</td>
     </tr>
     <tr>
-      <td style="text-align: left"><em>Web Developer</em></td>
-      <td style="text-align: right">06/2012 - 06/2014</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        <ul style="margin: 0px;">
-          <li style="margin-bottom: 0px;">Migrated sites from WordPress.org to shared hosting allowing for deeper customization.</li>
-          <li style="margin-bottom: 0px;">Developed automatic backup processes for existing websites.</li>
-          <li style="margin-bottom: 0px;">Created templates for existing static websites transitioning to a CMS (such as Joomla or WordPress).</li>
-          <li style="margin-bottom: 0px;">Developed custom WordPress and Joomla plugins.</li>
-        </ul>
-      </td>
-    </tr>  
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <th style="text-align: left">Shive-Hattery, Inc.</th>
-      <th style="text-align: right">Downers Grove, IL</th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><em>Structural Engineer</em></td>
-      <td style="text-align: right">02/2011 - 06/2012 and 01/2013 - 03/2013</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        <ul style="margin: 0px;">
-          <li style="margin-bottom: 0px;">Provided comprehensive structural engineering design services and project management support for the industrial, educational, commercial, and telecom industries.</li>
-          <li style="margin-bottom: 0px;">Retrofitted existing structures to accommodate new tenants within the retail industry.</li>
-          <li style="margin-bottom: 0px;">Analyzed existing buildings, telecom towers, and water towers outfitted with new mobile network antennas.</li>
-          <li style="margin-bottom: 0px;">Collaborated on several projects using the Autodesk Revit building information modeling tool.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <th style="text-align: left">Carl Walker, Inc.</th>
-      <th style="text-align: right">Lombard, IL</th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><em>Project Engineer</em></td>
-      <td style="text-align: right">01/2005 - 03/2007 and 08/2007 - 01/2011</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        <ul style="margin: 0px;">
-        <li style="margin-bottom: 0px;">Provided comprehensive structural engineering design services for more than 30 unique parking structures throughout the United States.</li>
-        <li style="margin-bottom: 0px;">Designed precast concrete, post-tensioned concrete, and steel framed structural systems in areas across the country ranging from low to high seismicity.</li>
-        <li style="margin-bottom: 0px;">Designed spread footing, auger cast pile, drilled pier, steel driven pile, and timber driven pile foundation systems.</li>
-        <li style="margin-bottom: 0px;">Served as lead structural engineer on four parking structure projects.</li>
-        <li style="margin-bottom: 0px;">Effectively managed the construction phase of a four supported level, horizontal expansion to an existing post-tensioned parking structure in Duluth, Minnesota.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <th style="text-align: left">Drucker Zajdel Structural Engineers</th>
-      <th style="text-align: right">Naperville, IL</th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><em>Project Engineer</em></td>
-      <td style="text-align: right">03/2007 - 08/2007</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        <ul style="margin: 0px;">
-        <li style="margin-bottom: 0px;">Provided structural engineering design services for several small to mid-sized commercial and residential masonry, wood, and steel structures.</li>
-        <li style="margin-bottom: 0px;">Designed and detailed structural steel connections for two high-rise buildings in downtown Chicago.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <th style="text-align: left">Carl Walker, Inc.</th>
-      <th style="text-align: right">Indianapolis, IN</th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><em>Engineering Intern</em></td>
-      <td style="text-align: right">05/2004 - 08/2004</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        <ul style="margin: 0px;">
-        <li style="margin-bottom: 0px;">Post-tensioned parking structure design.</li>
-        <li style="margin-bottom: 0px;">Retaining wall analysis and design.</li>
-        <li style="margin-bottom: 0px;">Foundation system analysis and design.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <th style="text-align: left">WRG Design, Inc. (Now Cardno)</th>
-      <th style="text-align: right">Portland, OR</th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><em>Design Technician</em></td>
-      <td style="text-align: right">06/2002 - 12/2002 and 05/2003 - 08/2003</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        <ul style="margin: 0px;">
-        <li style="margin-bottom: 0px;">Grading design.</li>
-        <li style="margin-bottom: 0px;">Storm drain system design.</li>
-        <li style="margin-bottom: 0px;">Technical drafter for various site design projects.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <th style="text-align: left">Marion County Public Works</th>
-      <th style="text-align: right">Salem, OR</th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><em>Engineering Technician</em></td>
-      <td style="text-align: right">05/2001 - 09/2001</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        <ul style="margin: 0px;">
-          <li style="margin-bottom: 0px;">Wood, masonry, and reinforced concrete structural analysis.</li>
-          <li style="margin-bottom: 0px;">Hydraulic analysis and design for stream improvements.</li>
-          <li style="margin-bottom: 0px;">Grading design for a wetland restoration.</li>
-        </ul>
-      </td>
+      <td style="text-align: left"><strong>OS:</strong></td>
+      <td style="text-align: left">Windows, OS X, Linux (Ubuntu, Mint, Arch)</td>
     </tr>
   </tbody>
 </table>

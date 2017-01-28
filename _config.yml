@@ -15,7 +15,7 @@ owner:
   email:          info@jacobmdavidson.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
-  facebook: 
+  facebook:
   github: JacobMDavidson
   stackexchange:
   linkedin: jacobmdavidson
@@ -37,7 +37,7 @@ bing_verify:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 gems:
   - jekyll-sitemap
