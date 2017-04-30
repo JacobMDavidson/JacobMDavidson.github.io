@@ -9,17 +9,55 @@ comments: false
 modified: 2015-08-01
 ---
 
-<div markdown="0" style="text-align: center"><a href="#work" class="btn btn-info">Work History</a>
+<div markdown="0" style="text-align: center">
+<a href="#tools" class="btn btn-info">Core Technical Skills</a>
+<a href="#work" class="btn btn-info">Work History</a>
 <a href="#education" class="btn btn-info">Education</a>
+{% comment %}
 <a href="#courses" class="btn btn-info">Course Work</a>
-<a href="#tools" class="btn btn-info">Languages, Tools</a>
-<a href="#projects" class="btn btn-info">Projects</a></div>
+{% endcomment %}
+<a href="#projects" class="btn btn-info">Projects</a>
+</div>
 
+## Summary
 
 {% comment %}
 I’m a former structural engineer working on my master’s degree in computer science at the University of Illinois at Springfield. I worked as a structural engineer for nearly eight years before making the decision to change careers. [Life circumstances]({% post_url /personal/2015-05-16-about-me %}) caused me to reevaluate my chosen career path in late 2012. This evaluation resulted in leaving my old career behind and beginning the journey toward a new career in software development. Now that I’m on the brink of overcoming the first hurdle in my journey, it’s safe to say I’ve made the right choice!
 {% endcomment %}
-I’m a former structural engineer that decided it was time for a career change after nearly 8 years in the industry. My love for technology and passion for learning made my new career choice an easy one. I completed a master’s degree in computer science at the University of Illinois at Springfield in December of 2015, leaving my old career behind.
+I’m a former structural engineer that decided it was time for a career change after nearly 8 years in the industry. My love for technology and passion for learning made my new career choice an easy one. I completed a master’s degree in computer science at the University of Illinois at Springfield in December of 2015 and left my old career behind.
+
+<a id="tools"></a>
+
+## Core Technical Skills
+
+<table rules="groups">
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>.NET:</strong></td>
+      <td style="text-align: left">ADO.NET, ASP.NET, C#, Entity Framework, MVC, SignalR, VB.NET, Web Forms</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Web:</strong></td>
+      <td style="text-align: left">AJAX, CSS, HTML, JavaScript, jQuery, JSON, PHP, XML</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>DBMS:</strong></td>
+      <td style="text-align: left">Oracle, MySQL, SQL Server</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Tools:</strong></td>
+      <td style="text-align: left">Eclipse, SQL Server Management Studio, Team Foundation Server, Visual Studio</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Azure:</strong></td>
+      <td style="text-align: left">Application Insights, App Service, Content Delivery Network, Service Bus, SQL Database</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>OS:</strong></td>
+      <td style="text-align: left">MS Windows, OS X, Linux (Arch, Ubuntu)</td>
+    </tr>
+  </tbody>
+</table>
 
 <a id="work"></a>
 
@@ -38,15 +76,15 @@ I’m a former structural engineer that decided it was time for a career change 
     <tr>
       <td style="text-align: left" colspan="2">
         <ul style="margin: 0px;">
-          <li style="margin-bottom: 0px;">Provided ongoing maintenance for a console based VB.NET application that uses XSLT transformations to convert XML into HTML for both web-based and Kindle publications.</li>
-          <li style="margin-bottom: 0px;">Developed new features for an Azure-based telemedicine platform built with ASP.NET 4.5 using web forms. This n-tiered application was built with VB.NET, ADO.NET, SignalR, and WebRTC.</li>
+          <li style="margin-bottom: 0px;">Provided ongoing maintenance and developed new features for a telemedicine platform built with ASP.NET Web Forms. This n-tiered application was developed using VB.NET, ADO.NET, SignalR, and WebRTC.</li>
           <ul>
-            <li>Integrated Stripe Connect allowing users to accept client payments</li>
+            <li>Integrated Stripe Connect allowing users to accept client payments.</li>
             <li>Created a medical history collection component with a Clinical Document Architecture 2 formatted export feature.</li>
-            <li>Migrated static content to a CDN</li>
+            <li>Migrated static content to a CDN.</li>
             <li>Implemented an Azure Service Bus backplane to facilitate seamless application deployment slot swapping without severing SignalR connections.</li>
           </ul>
-          <li style="margin-bottom: 0px;">Developed a lightweight version of an existing telemedicine platform with the ASP.NET MVC 5 framework using C#, Entity Framework 6, SignalR, and WebRTC.</li>
+          <li style="margin-bottom: 0px;">Designed and implemented a lightweight version of an existing telemedicine platform with ASP.NET MVC 5 using C#, Entity Framework 6, SignalR, and WebRTC.</li>
+          <li style="margin-bottom: 0px;">Provided ongoing maintenance for a console based VB.NET application that uses XSLT transformations to convert XML into HTML for both web-based and Kindle publications.</li>
         </ul>
       </td>
     </tr>  
@@ -66,9 +104,9 @@ I’m a former structural engineer that decided it was time for a career change 
       <td style="text-align: left" colspan="2">
         <ul style="margin: 0px;">
           <li style="margin-bottom: 0px;">Migrated sites from WordPress.org to shared hosting allowing for deeper customization.</li>
-          <li style="margin-bottom: 0px;">Developed automatic backup processes for existing websites.</li>
           <li style="margin-bottom: 0px;">Created templates for existing static websites transitioning to a CMS (such as Joomla or WordPress).</li>
           <li style="margin-bottom: 0px;">Developed custom WordPress and Joomla plugins.</li>
+          <li style="margin-bottom: 0px;">Implemented automatic backup processes for existing websites.</li>
         </ul>
       </td>
     </tr>  
@@ -225,11 +263,10 @@ I’m a former structural engineer that decided it was time for a career change 
 |:-|-:|
 |Bachelor of Science: Civil Engineering||
 |Cumulative GPA: 3.89/4.0||
-|Graduated with Honors: Summa Cum Laude||
 {: rules="groups"}
 
 <a id="courses"></a>
-
+{% comment %}
 ## Relevant Course work
 
 <table rules="groups">
@@ -315,13 +352,61 @@ I’m a former structural engineer that decided it was time for a career change 
 
   </tbody>
 </table>
-
+{% endcomment %}
 <a id="projects"></a>
 
 ## Personal Projects
 
 <table rules="groups">
   <tbody>
+  <tr>
+    <th style="text-align: left" colspan="2"><a href="{{ site.url }}/pelicensemanager/">Professional Engineering License Manager</a></th>
+  </tr>
+  <tr>
+    <td style="text-align: left"><a href="http://www.pelicensemanager.com">http://www.pelicensemanager.com</a></td>
+    <td style="text-align: right">08/2012 - Present</td>
+  </tr>
+  <tr>
+    <td style="text-align: left" colspan="2">
+      Built on top of the Joomla! content management system, this web application helps professional engineers manage and maintain their professional engineering licenses. This membership-based web site uses a MySQL database to log completed continuing education, track license renewal deadlines, and automatically generate continuing education logs to be submitted for license renewal. Also included is a notification system that periodically emails each user with upcoming license renewal dates and outstanding continuing education requirements.
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: left"> </td>
+    <td style="text-align: left"> </td>
+  </tr>
+  <tr>
+    <th style="text-align: left" colspan="2"><a href="{{ site.url }}/civilpenet/">CivilPE.net</a></th>
+  </tr>
+  <tr>
+    <td style="text-align: left"><a href="http://www.civilpe.net">http://www.civilpe.net</a></td>
+    <td style="text-align: right">06/2012 - Present</td>
+  </tr>
+  <tr>
+    <td style="text-align: left" colspan="2">
+      This WordPress based site was built to provide licensing information for civil engineers. It was an exercise in search engine optimization meant to drive targeted traffic to the Professional Engineering License Manager. In addition to blog posts, social networking was used to increase traffic via Twitter, Facebook, and Youtube. The site currently attracts more than 1000 unique visitors monthly.
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: left"> </td>
+    <td style="text-align: left"> </td>
+  </tr>
+  <tr>
+    <th style="text-align: left" colspan="2"><a href="{{ site.url }}/converge/">Elavon Converge Payment Gateway for WooCommerce</a></th>
+  </tr>
+  <tr>
+    <td style="text-align: left"><a href="https://github.com/JacobMDavidson/Elavon-Payment-Gateway-for-WooCommerce">Available on Github</a></td>
+    <td style="text-align: right">09/2012 - 10/2016</td>
+  </tr>
+  <tr>
+    <td style="text-align: left" colspan="2">
+      This WordPress plugin adds the Elavon Converge payment gateway to WooCommerce (an eCommerce solution for WordPress). Ongoing customer support has been provided for the more than 200 customers that have purchased this plugin.
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: left"> </td>
+    <td style="text-align: left"> </td>
+  </tr>
   <tr>
     <th style="text-align: left" colspan="2"><a href="{{ site.url }}/chattersystem/">Chatter Server and Client</a></th>
   </tr>
@@ -363,7 +448,7 @@ I’m a former structural engineer that decided it was time for a career change 
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
-        Developed as a team for the Software Engineering Capstone course at the University of Illinois at Springfield, this application is a desktop version of the popular dice game Farkle.
+        Developed as a team project for the Software Engineering Capstone course at the University of Illinois at Springfield, this application is a desktop version of the popular dice game Farkle.
       </td>
     </tr>
     <tr>
@@ -402,78 +487,7 @@ I’m a former structural engineer that decided it was time for a career change 
       <td style="text-align: left"> </td>
       <td style="text-align: left"> </td>
     </tr>
-    <tr>
-      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/converge/">Elavon Converge Payment Gateway for WooCommerce</a></th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="https://github.com/JacobMDavidson/Elavon-Payment-Gateway-for-WooCommerce">Available on Github</a></td>
-      <td style="text-align: right">09/2012 - Present</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        This WordPress plugin adds the Elavon Converge payment gateway to WooCommerce (an eCommerce solution for WordPress). Ongoing customer support has been provided for the more than 200 customers that have purchased this plugin.
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/pelicensemanager/">Professional Engineering License Manager</a></th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="http://www.pelicensemanager.com">http://www.pelicensemanager.com</a></td>
-      <td style="text-align: right">08/2012 - Present</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        Built on top of the Joomla! content management system, this web application helps professional engineers manage and maintain their professional engineering licenses. This membership based web site uses a MySQL database to log completed continuing education, track license renewal deadlines, and automatically generate continuing education logs to be submitted for license renewal. Also included is a notification system that periodically emails each user with upcoming license renewal dates and outstanding continuing education requirements.
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <th style="text-align: left" colspan="2"><a href="{{ site.url }}/civilpenet/">CivilPE.net</a></th>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="http://www.civilpe.net">http://www.civilpe.net</a></td>
-      <td style="text-align: right">06/2012 - Present</td>
-    </tr>
-    <tr>
-      <td style="text-align: left" colspan="2">
-        This WordPress based site was built to provide licensing information for civil engineers. It was an exercise in search engine optimization meant to drive targeted traffic to the Professional Engineering License Manager. In addition to blog posts, social networking was used to increase traffic via Twitter, Facebook, and Youtube. The site currently attracts more than 1000 unique visitors monthly.
-      </td>
-    </tr>
-  </tbody>
-</table>
 
-<a id="tools"></a>
 
-## Languages, Tools, and Operating Systems
-
-<table rules="groups">
-  <tbody>
-    <tr>
-      <td style="text-align: left"><strong>.NET:</strong></td>
-      <td style="text-align: left">ADO.NET, ASP.NET, C#, Entity Framework, MVC, SignalR, VB.NET</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>Web:</strong></td>
-      <td style="text-align: left">AJAX, CSS, HTML, JavaScript, JSON, PHP, XML, XSLT</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>DBMS:</strong></td>
-      <td style="text-align: left">Oracle, MySQL, SQL Server</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>IDE:</strong></td>
-      <td style="text-align: left">Eclipse, Visual Studio</td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>OS:</strong></td>
-      <td style="text-align: left">Windows, OS X, Linux (Ubuntu, Mint, Arch)</td>
-    </tr>
   </tbody>
 </table>

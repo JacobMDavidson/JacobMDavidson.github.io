@@ -1,6 +1,7 @@
 title:            Jacob M Davidson
 description:      This site was built to showcase the various projects I've worked on.
 disqus_shortname: hpstrtheme
+repository: "JacobMDavidson/JacobMDavidson.github.io"
 # reading_time:     true
 # words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -11,7 +12,7 @@ url:
 owner:
   name:           Jacob M Davidson
   avatar:         avatar.jpg
-  bio:            "I'm a former structural engineer working on a master's degree in computer science at the University of Illinois at Springfield."
+  bio:            "An enthusiastic high achiever with a passion for continuous learning."
   email:          info@jacobmdavidson.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
@@ -56,7 +57,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: true
+  enable_coderay: true
 
   coderay:
     coderay_line_numbers: nil
