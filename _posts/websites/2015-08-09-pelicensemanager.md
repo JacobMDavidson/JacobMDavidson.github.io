@@ -9,14 +9,12 @@ image:
   feature: pelicense/pelicense_banner.png
 ---
 <figure style="text-align: center">
-  <a href="http://www.pelicensemanager.com">
     <img src="{{ site.url }}/images/pelicense/pelicensemanager.jpg" alt="">
-  </a>
 </figure>
 
 ## Summary
 
-[Pelicensemanager.com](http://pelicensemanager.com) was the first *real* project I developed. By calling it a real project, I mean that it’s much more involved than developing a static website, or designing a template for a popular CMS. This project required database design, extensive PHP development, and several MySQL queries. This was a complicated project, made even more complex by my lack of knowledge and experience at the time. As it stands, [pelicensemanager.com](http://pelicensemanager.com) meets all requirements and functionality that I set for a minimum viable product. Now that I have more experience, the myriad of inefficiencies in the PHP code and MySQL queries are obvious, but these inefficiencies do not adversely affect usability for the current user base. It does not make sense to spend time correcting these inefficiencies until the size of the user base dictates that it is necessary. This project analysis will outline how [pelicensemanager.com](http://pelicensemanager.com) was constructed, and will detail the changes I would make if I revisited this project today.
+Pelicensemanager.com was the first *real* project I developed. By calling it a real project, I mean that it’s much more involved than developing a static website, or designing a template for a popular CMS. This project required database design, extensive PHP development, and several MySQL queries. This was a complicated project, made even more complex by my lack of knowledge and experience at the time. As it stands, pelicensemanager.com meets all requirements and functionality that I set for a minimum viable product. Now that I have more experience, the myriad of inefficiencies in the PHP code and MySQL queries are obvious, but these inefficiencies do not adversely affect usability for the current user base. It does not make sense to spend time correcting these inefficiencies until the size of the user base dictates that it is necessary. This project analysis will outline how pelicensemanager.com was constructed, and will detail the changes I would make if I revisited this project today.
 
 ## The Problem
 
@@ -41,7 +39,7 @@ In short, the PE license manager would be the solution to the large, complicated
 
 The minimum viable product for the professional engineering license manager was built on top of the [Joomla content management system](http://www.joomla.org). Joomla was chosen to quickly implement a secure, well-supported platform with built in subscription and user level capabilities. My goal was to quickly develop an initial version (that was more of a prototype) to determine if this is a tool that professional engineers would embrace. Joomla was extended via modules to incorporate the professional engineering license manager functionality.
 
-[Pelicensemanager.com](http://pelicensemanager.com) is hosted on a [Bluehost](https://www.bluehost.com) shared Linux server, and uses Joomla version 2.5.8. This server runs PHP version 5.2.17 and MySQL version 5.5.42.
+Pelicensemanager.com is hosted on a [Bluehost](https://www.bluehost.com) shared Linux server, and uses Joomla version 2.5.8. This server runs PHP version 5.2.17 and MySQL version 5.5.42.
 
 ## Database Design
 
@@ -170,11 +168,7 @@ When the site initially went live I did tested a targeted direct mail campaign. 
 
 That campaign resulted in a few site visits and inquiries, but no subscriptions. Needless to say, I did not continue with the direct mail campaign.
 
-## Analytics
-
-Over the past year, the site has garnered an average of 150 monthly sessions from 140 monthly users, leading to 250 monthly page views. Eighty-six percent of this traffic is from referrals (CivilPE.net, twitter, YouTube, etc.) most of which is from CivilPE.net. As for the subscribed user base, the site currently has 39 total users, 16 of which are active subscribers.
-
 ## Conclusion
 
-Developing this site was an incredible learning experience. This project was my first real exposure to PHP and MySQL. Additionally, this was the first time I really dug into using Joomla. This site was developed before I completed any formal education in computer science, and the implementation shows my lack of experience. That being said, the application works as intended.  Unless the user base grows rapidly, there is no need to address the implementation issues beyond fixing the occasional bug that pops up. As ugly as the implementation is, I’m proud of the final product. Completing this project solved a personal license management problem that I grappled with for years.
+Developing this site was an incredible learning experience. This project was my first real exposure to PHP and MySQL. Additionally, this was the first time I really dug into using Joomla. This site was developed before I completed any formal education in computer science, and the implementation shows my lack of experience. That being said, the application worked as intended and was available to the public for nearly 6 years before the site was taken down.  As ugly as the implementation was, I’m extremely proud of the final product. Completing this project solved a personal license management problem that I grappled with for years.
 Furthermore, this project finalized my decision to go back to school for a M.S. in computer science. That in and of itself was worth the time I spent developing pelicensemanager.com.
