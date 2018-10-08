@@ -2,8 +2,8 @@
 layout: post
 title: PE License Manager
 description: "Pelicensemanager.com was the first real project I developed. By calling it a real project, I mean that it’s much more involved than developing a static website, or designing a template for a popular CMS. This project required database design, extensive PHP development, and several MySQL queries. This was a complicated project, made even more complex by my lack of knowledge and experience at the time. As it stands, pelicensemanager.com meets all requirements and functionality that I set for a minimum viable product. Now that I have more experience, the myriad of inefficiencies in the PHP code and MySQL queries are obvious, but these inefficiencies do not adversely affect usability for the current user base. It does not make sense to spend time correcting these inefficiencies until the size of the user base dictates that it is necessary. This project analysis will outline how pelicensemanager.com was constructed, and will detail the changes I would make if I revisited this project today."
-modified: 2015-08-09
-tags: [website, joomla]
+modified: 2018-10-06
+tags: [web app, joomla, joomla web app]
 comments: false
 image:
   feature: pelicense/pelicense_banner.png

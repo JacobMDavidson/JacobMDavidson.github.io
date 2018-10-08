@@ -3,7 +3,7 @@ layout: post
 title: ComputerSMS Android and Desktop Applications
 description: "I currently own a Moto X and looked forward to the Motorola Connect feature when it was first released. The promise of Motorola Connect was to allow SMS messaging via a Chrome browser plugin. Unfortunately, the delivered product fell well short of my expectations. Initialization was slow, messages weren't sent and received in a timely fashion, messages sent and received within Motorola Connect were not accessible in the messages app on my phone, and using the plugin meant that my messages were being stored on yet another server over which I have no control. Needless to say, I stopped using the Chrome browser plugin after my first experience. I needed to create a better solution for my personal needs."
 modified: 2015-10-02
-tags: [android, desktop, java]
+tags: [android, desktop, java, java desktop, java mobile]
 comments: false
 image:
   feature: android/computersms-banner.png

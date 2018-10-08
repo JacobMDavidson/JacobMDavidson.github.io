@@ -3,7 +3,7 @@ layout: post
 title: Music Organizer
 description: "My music file collection has grown rapidly since 1998, when MP3s first became popular. Over the past 17 years, this collection has become a tangled mess. I had no naming or tagging convention for the MP3s I owned. I had many song duplicates located in various folders and under different names. When I first began ripping my music, I didn't take the time to properly name and organize each track of each album. This resulted in many, many songs labeled track1, track2, etc., in a folder structure consisting of just the album name. Furthermore, these songs were not tagged in any way. Searching for a particular song or artist was nearly impossible. Organizing this mess would be a painful task. I set three goals to accomplish this task: properly tag each file, develop a unified folder structure to store each file, and eliminate duplicate files. I developed a Java program to make this possible."
 modified: 2015-08-05
-tags: [desktop, java]
+tags: [desktop, java, java desktop]
 comments: false
 image:
   feature: desktop/music-organizer.png

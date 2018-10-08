@@ -3,7 +3,7 @@ layout: post
 title: Ant Simulator
 description: "In one of the first classes I took at UIS, CSC 385: Data Structures & Algorithms, the semester project required the development of an ant colony simulation in Java. For the sake of future students taking that course, I will not be revealing the source code or my methods for implementing the project in this summary."
 modified: 2015-08-04
-tags: [desktop, java]
+tags: [desktop, java, java desktop]
 comments: false
 image:
   feature: desktop/ant-simulator.png

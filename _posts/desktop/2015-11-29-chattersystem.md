@@ -3,7 +3,7 @@ layout: post
 title: Chatter System
 description: "This set of applications was created as a UIS CSC583 network programming term project in the fall of 2015. It includes a chatter server and a chatter client, and provides instant messaging services over the local area network. The chatter server application is command line based, and runs on a vacant port of its host computer. The chatter client is a graphical user interface based application that allows communication through the chatter server to other clients on a local area network. Each client connects to the server, and the server broadcasts incoming messages from a client to all other connected clients. The server has the capability of maintaining a list of users who have previously connected to the system in a MySQL database."
 modified: 2015-11-29
-tags: [desktop, java]
+tags: [desktop, java, java desktop]
 comments: false
 image:
   feature: desktop/chattersystem-banner.png

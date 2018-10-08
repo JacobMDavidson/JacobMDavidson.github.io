@@ -3,7 +3,7 @@ layout: post
 title: Coordinate Transformation
 description: "My wife is a licensed land surveyor. She used an old c based console program to perform two dimensional coordinate transformations. This program required a carefully crafted text file as input in the same folder that the program resides. When run, it would produce a text file output in that same folder. In other words, she had a copy of this program in every project folder that required a coordinate transformation. Granted, this was an extremely small program, so the multiple copies didn't take up much space. After many years of use, computer upgrades rendered this program useless, and she didn't have access to the source code. She asked if I could create an updated application for her."
 modified: 2015-08-07
-tags: [csharp]
+tags: [dotnet, desktop, dotnet desktop, csharp]
 comments: false
 image:
   feature: csharp/survey.png

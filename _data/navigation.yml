@@ -1,19 +1,23 @@
 # Menu navigation links
+- title: Desktop Apps
+  url: sublist
+  sublist: [.NET|/desktop-apps/dotnet, Java|/desktop-apps/java]
+
+- title: Mobile Apps
+  url: sublist
+  sublist: [Android|/mobile-apps/android, iOS|/mobile-apps/ios, Xamarin|/mobile-apps/xamarin]
+
+- title: Web Apps
+  url: sublist
+  sublist: [.NET|/web-apps/dotnet, Joomla|/web-apps/joomla]
 
 - title: Websites
   url: sublist
-  sublist: [WordPress|/websites/wordpress, Joomla|/websites/joomla, Jekyll|/websites/jekyll]
+  sublist: [.NET|/websites/dotnet, WordPress|/websites/wordpress, Jekyll|/websites/jekyll]
 
 - title: Wordpress Plugins
   url: sublist
   sublist: [Commercial|/wordpress-plugins/commercial, Non-Commercial|/wordpress-plugins/personal]
-
-- title: Java Applications
-  url: sublist
-  sublist: [Android|/java-applications/android, Desktop|/java-applications/desktop]
-
-- title: C# Projects
-  url: /csharp-projects/
 
 - title: Fun Projects
   url: /fun-projects/
