@@ -5,6 +5,7 @@ description: "My brother hosts a personal fitness podcast on blogtalkradio. Afte
 modified: 2015-08-05
 tags: [plugin, personal, WordPress]
 comments: false
+share: false
 image:
   feature: plugins/blog-talk-radio.png
 ---

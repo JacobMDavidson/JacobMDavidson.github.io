@@ -5,6 +5,7 @@ description: "My music file collection has grown rapidly since 1998, when MP3s f
 modified: 2015-08-05
 tags: [desktop, java, java desktop]
 comments: false
+share: false
 image:
   feature: desktop/music-organizer.png
 ---

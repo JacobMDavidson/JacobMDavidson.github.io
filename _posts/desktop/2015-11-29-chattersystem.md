@@ -5,6 +5,7 @@ description: "This set of applications was created as a UIS CSC583 network progr
 modified: 2015-11-29
 tags: [desktop, java, java desktop]
 comments: false
+share: false
 image:
   feature: desktop/chattersystem-banner.png
 ---

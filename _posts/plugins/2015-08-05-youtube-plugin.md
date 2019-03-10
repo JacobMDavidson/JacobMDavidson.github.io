@@ -5,6 +5,7 @@ description: "While working on a site that made heavy used of lightboxes to disp
 modified: 2015-08-05
 tags: [plugin, personal, WordPress]
 comments: false
+share: false
 image:
   feature: plugins/youtube.png
 ---

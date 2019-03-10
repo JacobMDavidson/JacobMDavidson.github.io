@@ -5,6 +5,7 @@ description: "In one of the first classes I took at UIS, CSC 385: Data Structure
 modified: 2015-08-04
 tags: [desktop, java, java desktop]
 comments: false
+share: false
 image:
   feature: desktop/ant-simulator.png
 ---

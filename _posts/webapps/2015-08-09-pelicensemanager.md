@@ -5,6 +5,7 @@ description: "Pelicensemanager.com was the first real project I developed. By ca
 modified: 2018-10-06
 tags: [web app, joomla, joomla web app]
 comments: false
+share: false
 image:
   feature: pelicense/pelicense_banner.png
 ---

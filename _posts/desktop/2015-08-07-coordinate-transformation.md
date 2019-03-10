@@ -5,6 +5,7 @@ description: "My wife is a licensed land surveyor. She used an old c based conso
 modified: 2015-08-07
 tags: [dotnet, desktop, dotnet desktop, csharp]
 comments: false
+share: false
 image:
   feature: csharp/survey.png
 ---

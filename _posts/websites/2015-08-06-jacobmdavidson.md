@@ -5,6 +5,7 @@ description: "A few months back, I finally decided to develop a personal website
 modified: 2015-08-06
 tags: [website, jekyll, jekyll website]
 comments: false
+share: false
 image:
   feature: jekyll/github-jekyll.png
 ---

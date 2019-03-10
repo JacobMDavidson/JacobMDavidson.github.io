@@ -5,6 +5,7 @@ description: "I currently own a Moto X and looked forward to the Motorola Connec
 modified: 2015-10-02
 tags: [android, desktop, java, java desktop, java mobile]
 comments: false
+share: false
 image:
   feature: android/computersms-banner.png
 ---
