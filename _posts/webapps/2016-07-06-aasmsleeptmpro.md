@@ -20,7 +20,7 @@ image:
 
 ### Architecture
 
-Hosted in an Azure App Service, this project was built in ASP.NET 4.5 using VB.NET and Web Forms. The data access layer utilizes ADO.NET to connect to a MS SQL database also hosted on Azure. SignalR was used for real-time communications, and OpenTok's WebRTC platform formed the basis of the live video interaction. MembershipReboot was used for identity management and authentication.
+Hosted in an Azure App Service, this project was built in ASP.NET 4.5 using VB.NET and Web Forms. ADO.NET connects the data access layer to a MS SQL database also hosted on Azure. SignalR was used for real-time communications, and OpenTok's WebRTC platform formed the basis of the live video interaction. MembershipReboot was used for identity management and authentication.
 
 ### Features
 
@@ -28,13 +28,13 @@ Hosted in an Azure App Service, this project was built in ASP.NET 4.5 using VB.N
 
 AASM SleepTM Pro provides a web-based, HIPAA compliant telemedicine platform. Anyone with a web cam, microphone, and access to a supported web browser can take part in an interactive live video one on one encounter. Browser support includes Chrome, Firefox, and IE11. Safari and Edge are not officially supported, but these browsers will work. By building this platform for the devices and software most people are already using, we greatly reduced the costs involved in implementing telemedicine.
 
-Within the encounter screen, patients and physicians can easily access information on past encounters and view all of the patients vital health information. Both the physician and the patient can take private notes during the encounter that are not accessible by the other party, and physicians have an opportunity to share specific notes at the conclusion of the encounter. Physicians can also share their screen during the encounter. With this feature, they have the option to share one of their monitors or to limit the screen share to a specific application. The physician has the ability to take screen shots of the encounter screen and is able to grant the patient access to these screen shots or any other document that they have previously uploaded to the system.
+During the encounter, patients and physicians can easily access information on past appointments and view all of the patient's vital health information. Both the physician and the patient can take private notes during the live video interaction that are not accessible by the other party, and the physician is given an opportunity to share an appointment summary at the conclusion of the encounter. With a screen share feature, physicians have the option to share one of their monitors or a specific application window with the patient. A camera feature allows the physician to take a screen shot of the patient's video feed, adding the image to the physician's secure document store. In addition, the physician is able to grant the patient access to any documents that the physician has previously uploaded to the system.
 
-The encounter screen also includes a text chat feature that is typically used before the live interactive video portion of the encounter. This gives the physician the chance to let the patient know that they're reviewing the patients information before they begin the encounter. Typically the physician will warn the patient that the encounter is about to begin through this chat feature before they click the "Start Encounter" button. This also provides a mode of communication should there be a hardware failure for either user.
+The encounter screen also includes a text chat feature that is typically used before the live interactive video portion of the encounter. This gives the physician the chance to let the patient know that they're reviewing the patients information before they begin the encounter. Typically the physician will warn the patient that the encounter is about to begin through this chat feature before they officially begin the encounter. This also provides a mode of communication should there be a hardware failure for either user.
 
 *Branded Webpage and Marketing Materials*
 
-Each facility that registers with AASM SleepTM Pro is given a branded webpage and access to printable marketing materials that they can give to their patients. Facility administrators have complete control over the content, staff, and logo that are displayed on the facility's webpage. Patients can be directed to this page to request telemedicine appointments.
+Each facility that registers with AASM SleepTM Pro is given a branded webpage and access to printable marketing materials that they can give to their patients. Facility administrators have complete control over the content, staff, and logo that are displayed on the facility's webpage. Patients can be directed to this page to request appointments.
 
 *Queued Patient Waiting Room*
 
@@ -42,7 +42,7 @@ Facilities are also given a virtual waiting room with their account. Patients lo
 
 *Accept Payments Electronically*
 
-Physicians can link a Stripe account to accept credit card payments from patients prior to an encounter. With this "self-pay" feature, physicians can define a cost associated with several appointment types. When they schedule a self-paid appointment, physicians can assign a cost for that appointment. The patient will be required to pay the fee with a credit card before the encounter can begin.
+Physicians can link a Stripe account to accept credit card payments from patients prior to an encounter. With this "self-pay" feature, physicians can define a price associated with several appointment types. When they schedule a self-paid appointment, physicians can assign a cost for that appointment. The patient will be required to pay the fee with a credit card before the encounter can begin.
 
 *Advanced Scheduling*
 
@@ -54,7 +54,7 @@ Patients are able to track their sleep patterns using an integrated sleep diary.
 
 *Patient Tasks*
 
-Physicians can assign various tasks that the wish their patients to complete prior to any telemedicine encounter. Through these tasks physicians can assign reading material, questionnaires, etc. Patients are then requested to acknowledge that they have completed the task.
+Physicians can assign various tasks that they wish their patients to complete prior to any telemedicine encounter. Through these tasks physicians can assign reading material, questionnaires, etc., and patients are requested to acknowledge that they have completed the task.
 
 *Access Patient Health information*
 
@@ -70,4 +70,4 @@ Physicians and patients can send messages to each other securely within the plat
 
 ## Conclusion
 
-With AASM SleepTM Pro, physicians have all of the tools they need to effectively see and treat patients using telemedicine. This tool can virtually replace the physicians existing EHR giving them a single platform for all of their telehealth needs, making it the perfect solution for retired and moonlighting physicians.
+With AASM SleepTM Pro, physicians have all of the tools they need to effectively see and treat patients using telemedicine. In addition to providing a secure video portal, this tool can be used as an EHR replacement giving physicians a single platform for all of their telehealth needs. AASM SleepTM Pro is the perfect solution for retired and moonlighting sleep specific physicians.
