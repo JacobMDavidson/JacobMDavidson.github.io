@@ -2,7 +2,7 @@
 layout: post
 title: AASM SleepTM Android Application
 description: "The AASM SleepTM Android application gives patients access to the AASM SleepTM telemedicine platform from their mobile device. With this mobile app, patients can have a face to face encounter with their sleep provider from just about anywhere using their Android device."
-modified: 2018-10-27
+modified: 2019-03-09
 tags: [android, xamarin]
 comments: false
 share: false

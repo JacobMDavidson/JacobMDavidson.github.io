@@ -2,7 +2,7 @@
 layout: post
 title: AASM SleepTM iOS Application
 description: "The AASM SleepTM iOS application gives patients access to the AASM SleepTM telemedicine platform from their iOS device. With this iOS app, patients can have a face to face encounter with their sleep provider from just about anywhere using their mobile device."
-modified: 2018-10-28
+modified: 2019-03-09
 tags: [ios, xamarin]
 comments: false
 share: false
