@@ -20,7 +20,7 @@ image:
 
 ### Architecture
 
-This project was created with the initial intention of being a complete replacement for AASM SleepTM Pro. With this in mind, we chose a completely different set of technologies to build this new version of platform. The plan was to construct a base platform on top of which modules could be added for more functionality. We chose to build Select in ASP.NET 4.5 using C# and MVC 5. Entity Framework 6 was used with the database first approach and the repository pattern for all MS SQL database interactions. SignalR was used for real-time communications, and OpenTok's WebRTC platform formed the basis of the live video interaction.
+This project was created with the initial intention of being a complete replacement for AASM SleepTM Pro. With this in mind, we chose a completely different set of technologies to build this new version of platform. The plan was to construct a base platform on top of which modules could be added for more functionality. We chose to build Select in ASP.NET 4.5 using C# and MVC 5. Entity Framework 6 was used with the database first approach and the repository pattern for all MS SQL database interactions. SignalR was used for real-time communications, and OpenTok's WebRTC platform formed the basis of the live video interaction. MembershipReboot was used for identity management and authentication. The application and database are both hosted on Microsoft Azure.
 
 As soon as the base platform was completed, it was decided not to continue with this modular approach replacing Pro. Instead, this project was marketed as a light weight version of AASM SleepTM Pro.
 
