@@ -33,27 +33,27 @@ I’m a former structural engineer that decided it was time for a career change 
   <tbody>
     <tr>
       <td style="text-align: left"><strong>.NET:</strong></td>
-      <td style="text-align: left">ADO.NET, ASP.NET, C#, Entity Framework, MVC, SignalR, VB.NET, Web Forms</td>
+      <td style="text-align: left">ADO.NET, ASP.NET, C#, Entity Framework, MVC, SignalR, VB.NET, Web Forms, Xamarin</td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>Web:</strong></td>
-      <td style="text-align: left">AJAX, CSS, HTML, JavaScript, jQuery, JSON, PHP, XML</td>
+      <td style="text-align: left">AJAX, Angular, CSS, HTML, JavaScript, JSON, jQuery, PHP, XML</td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>DBMS:</strong></td>
-      <td style="text-align: left">Oracle, MySQL, SQL Server</td>
+      <td style="text-align: left">MySQL, MS SQL Server</td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>Tools:</strong></td>
-      <td style="text-align: left">Eclipse, SQL Server Management Studio, Team Foundation Server, Visual Studio</td>
+      <td style="text-align: left">SQL Server Management Studio, Team Foundation Server, Visual Studio IDE, Visual Studio Code</td>
     </tr>
     <tr>
-      <td style="text-align: left"><strong>Azure:</strong></td>
-      <td style="text-align: left">Application Insights, App Service, Content Delivery Network, Service Bus, SQL Database</td>
+      <td style="text-align: left"><strong>Azure Cloud Services:</strong></td>
+      <td style="text-align: left">Application Insights, App Service, Content Delivery Network, Service Bus, SQL Database, Storage</td>
     </tr>
     <tr>
-      <td style="text-align: left"><strong>OS:</strong></td>
-      <td style="text-align: left">MS Windows, OS X, Linux (Arch, Ubuntu)</td>
+      <td style="text-align: left"><strong>Web Servers:</strong></td>
+      <td style="text-align: left">IIS, Apache</td>
     </tr>
   </tbody>
 </table>
@@ -73,8 +73,16 @@ I’m a former structural engineer that decided it was time for a career change 
       <td style="text-align: right">01/2016 - Present</td>
     </tr>
     <tr>
-      <td style="text-align: left" colspan="2">
-        <ul style="margin: 0px;">
+        <td style="text-align: left" colspan="2">
+          <ul style="margin: 0px;">
+          <li style="margin-bottom: 0px;">Overhauled a legacy web application dedicated to improving sleep study scoring consistency for sleep technologists. This ASP.NET Web Forms application was developed using VB.NET, ADO.NET, and MS SQL Server.</li>
+          <ul>
+            <li>Upgraded the administrative dashboard to a customized version of Bootstrap 3.</li>
+            <li>Developed an internal notification system to reduce reliance on external emails.</li>
+            <li>Integrated with amCharts for better graphical representation of collected data.</li>
+            <li>Migrated from Telerik reporting to jsreports for deeper report customization.</li>
+            <li>Simplified the registration and subscription processes.</li>
+          </ul>
           <li style="margin-bottom: 0px;">Provided ongoing maintenance and developed new features for a telemedicine platform built with ASP.NET Web Forms. This n-tiered application was developed using VB.NET, ADO.NET, SignalR, and WebRTC.</li>
           <ul>
             <li>Integrated Stripe Connect to allow users to accept client payments.</li>
@@ -360,11 +368,59 @@ I’m a former structural engineer that decided it was time for a career change 
 <table rules="groups">
   <tbody>
   <tr>
+    <th style="text-align: left" colspan="2">BDFIT Restore</th>
+  </tr>
+  <tr>
+    <td style="text-align: left"><a href="https://bdfitrestore.com">https://bdfitrestore.com</a></td>
+    <td style="text-align: right">11/2018 - Present</td>
+  </tr>
+  <tr>
+    <td style="text-align: left" colspan="2">
+      Description Coming Soon
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: left"> </td>
+    <td style="text-align: left"> </td>
+  </tr>
+  <tr>
+    <th style="text-align: left" colspan="2">BDFIT Fire</th>
+  </tr>
+  <tr>
+    <td style="text-align: left"><a href="https://bdfitfire.com">https://bdfitfire.com</a></td>
+    <td style="text-align: right">08/2018 - Present</td>
+  </tr>
+  <tr>
+    <td style="text-align: left" colspan="2">
+        Description Coming Soon
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: left"> </td>
+    <td style="text-align: left"> </td>
+  </tr>
+  <tr>
+    <th style="text-align: left" colspan="2">BDFIT</th>
+  </tr>
+  <tr>
+    <td style="text-align: left"><a href="https://bdfit.co">https://bdfit.co</a></td>
+    <td style="text-align: right">04/2018 - Present</td>
+  </tr>
+  <tr>
+    <td style="text-align: left" colspan="2">
+      Description Coming Soon
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: left"> </td>
+    <td style="text-align: left"> </td>
+  </tr>
+  <tr>
     <th style="text-align: left" colspan="2"><a href="{{ site.url }}/pelicensemanager/">Professional Engineering License Manager</a></th>
   </tr>
   <tr>
-    <td style="text-align: left"><a href="http://www.pelicensemanager.com">http://www.pelicensemanager.com</a></td>
-    <td style="text-align: right">08/2012 - Present</td>
+    <td style="text-align: left"><a href="https://jacobmdavidson.com/pelicensemanager/">https://jacobmdavidson.com/pelicensemanager/</a></td>
+    <td style="text-align: right">08/2012 - 02/2018</td>
   </tr>
   <tr>
     <td style="text-align: left" colspan="2">
@@ -379,8 +435,8 @@ I’m a former structural engineer that decided it was time for a career change 
     <th style="text-align: left" colspan="2"><a href="{{ site.url }}/civilpenet/">CivilPE.net</a></th>
   </tr>
   <tr>
-    <td style="text-align: left"><a href="http://www.civilpe.net">http://www.civilpe.net</a></td>
-    <td style="text-align: right">06/2012 - Present</td>
+    <td style="text-align: left"><a href="https://jacobmdavidson.com/civilpenet/">https://jacobmdavidson.com/civilpenet/</a></td>
+    <td style="text-align: right">06/2012 - 02/2018</td>
   </tr>
   <tr>
     <td style="text-align: left" colspan="2">
