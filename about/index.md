@@ -75,24 +75,27 @@ I’m a former structural engineer that decided it was time for a career change 
     <tr>
         <td style="text-align: left" colspan="2">
           <ul style="margin: 0px;">
-          <li style="margin-bottom: 0px;">Overhauled a legacy web application dedicated to improving sleep study scoring consistency for sleep technologists. This ASP.NET Web Forms application was developed using VB.NET, ADO.NET, and MS SQL Server.</li>
+          <li style="margin-bottom: 0px;">Overhauled a legacy web application dedicated to improving sleep study scoring consistency for sleep technologists resulting in a 30% year-over-year increase in revenue. This ASP.NET Web Forms application was developed using VB.NET, ADO.NET, and MS SQL Server.</li>
           <ul>
             <li>Upgraded the administrative dashboard to a customized version of Bootstrap 3.</li>
             <li>Developed an internal notification system to reduce reliance on external emails.</li>
-            <li>Integrated with amCharts for better graphical representation of collected data.</li>
-            <li>Migrated from Telerik reporting to jsreports for deeper report customization.</li>
+            <li>Added a pediatric sleep study scoring track and provided access to all AASM archived records.</li>
+            <li>Migrated from Telerik reporting to jsreports and amcharts for deeper report customization.</li>
             <li>Simplified the registration and subscription processes.</li>
           </ul>
+          <li style="margin-bottom: 0px;">Designed and implemented a lightweight version of an existing telemedicine platform with ASP.NET MVC 5 using C#, Entity Framework 6, SignalR, and WebRTC.</li>
+          <li style="margin-bottom: 0px;">Developed Android and iOS applications that integrate with an existing telemedicine platform using Xamarin.Android, Xamarin.iOS, SignalR, and WebRTC.</li>
           <li style="margin-bottom: 0px;">Provided ongoing maintenance and developed new features for a telemedicine platform built with ASP.NET Web Forms. This n-tiered application was developed using VB.NET, ADO.NET, SignalR, and WebRTC.</li>
           <ul>
             <li>Integrated Stripe Connect to allow users to accept client payments.</li>
             <li>Created a medical history collection component with a Clinical Document Architecture 2 formatted export feature.</li>
+            <li>Developed an availability calendar module that allows patients to schedule appointments from staff selected availability.</li>
+            <li>Launched a service that connects patients with board-certified sleep medicine physicians via telemedicine.</li>
+            <li>Improved algorithm efficiency on several data intensive pages reducing load times by up to 90%.</li>
             <li>Migrated static content to a CDN.</li>
             <li>Implemented an Azure Service Bus backplane to facilitate seamless application deployment slot swapping without severing SignalR connections.</li>
           </ul>
-          <li style="margin-bottom: 0px;">Designed and implemented a lightweight version of an existing telemedicine platform with ASP.NET MVC 5 using C#, Entity Framework 6, SignalR, and WebRTC.</li>
-          <li style="margin-bottom: 0px;">Developed Android and iOS applications that integrate with an existing telemedicine platform using Xamarin.Android, Xamarin.iOS, SignalR, and WebRTC.</li>
-          <li style="margin-bottom: 0px;">Provided ongoing maintenance for a console based VB.NET application that uses XSLT transformations to convert XML into HTML for both web-based and Kindle publications.</li>
+          <li style="margin-bottom: 0px;">Provided updates and ongoing maintenance for several web and mobile applications, including foundation.aasm.org, jcsm.aasm.org, wellness.welltrinsic.com, sleepmeeting.org, AASM Resource Library iOS and Android mobile apps, I See the Animals Sleeping Android mobile app, and The Animals Sleep Android mobile app.</li>
         </ul>
       </td>
     </tr>  
