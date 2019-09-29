@@ -131,7 +131,7 @@ I’m a former structural engineer that decided it was time for a career change 
     </tr>
     <tr>
       <td style="text-align: left"><em>Structural Engineer</em></td>
-      <td style="text-align: right">02/2011 - 06/2012 and 01/2013 - 03/2013</td>
+      <td style="text-align: right">02/2011 - 06/2012</td>
     </tr>
     <tr>
       <td style="text-align: left" colspan="2">
