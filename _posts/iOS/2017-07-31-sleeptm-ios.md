@@ -7,7 +7,7 @@ tags: [ios, xamarin]
 comments: false
 share: false
 image:
-  feature: ios/sleeptm-ios-header.png
+  feature: ios/headers_ios_sleeptm.png
 ---
 
 <figure style="text-align: center">

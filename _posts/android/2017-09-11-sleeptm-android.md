@@ -7,7 +7,7 @@ tags: [android, xamarin]
 comments: false
 share: false
 image:
-  feature: android/sleeptm-android-header.png
+  feature: android/headers_android_sleeptm.png
 ---
 
 <figure style="text-align: center">
